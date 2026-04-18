@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://cabnvftq07sek"]
+
+[ext_resource type="Script" uid="uid://rhl7en82cdk5" path="res://main.gd" id="1_ig7tw"]
+
+[node name="main" type="Node2D" unique_id=1223412428]
+script = ExtResource("1_ig7tw")
+
+[node name="ExitButton" type="Button" parent="." unique_id=1022649034]
+offset_right = 8.0
+offset_bottom = 8.0
+text = "Quiter"
+
+[node name="Circle" type="Polygon2D" parent="." unique_id=1114527251]
+position = Vector2(400, 300)
+color = Color(0.8566658, 0.44130963, 0.8240784, 1)
