@@ -18,6 +18,7 @@ add_library(platformer SHARED
     src/register_types.cpp
     src/player.cpp
     src/level.cpp  
+    src/win_platform.cpp
 )
 
 target_include_directories(platformer PRIVATE src/)

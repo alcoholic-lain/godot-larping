@@ -1,26 +1,24 @@
-[gd_scene format=3 uid="uid://ckudr8chj1kgo"]
+[gd_scene format=3 uid="uid://player_scene"]
 
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_sh265"]
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_player"]
+radius = 20.0
+height = 60.0
 
-[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_sh265"]
+[node name="Player" type="Player"]
 
-[node name="Player" type="Player" unique_id=461779296]
-position = Vector2(0, 13304189)
-velocity = Vector2(0, 161470)
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 0)
+shape = SubResource("CapsuleShape2D_player")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1969009238]
-position = Vector2(76.666664, 113777600)
-shape = SubResource("CapsuleShape2D_sh265")
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_left = -20.0
+offset_top = -30.0
+offset_right = 20.0
+offset_bottom = 30.0
+color = Color(1, 0.4, 0.1, 1)
 
-[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1811622315]
-position = Vector2(76.666664, 115222736)
-texture = SubResource("PlaceholderTexture2D_sh265")
-
-[node name="ColorRect" type="ColorRect" parent="." unique_id=423115861]
-offset_left = 76.666664
-offset_top = 116103744.0
-offset_right = 116.666664
-offset_bottom = 116103784.0
-color = Color(0.27058825, 1, 1, 1)
-
-[node name="Camera2D" type="Camera2D" parent="." unique_id=1255257457]
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(0, 0)
+zoom = Vector2(1, 1)
+position_smoothing_enabled = true
+position_smoothing_speed = 5.0

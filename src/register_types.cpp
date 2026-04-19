@@ -1,6 +1,7 @@
 #include "register_types.h"
 #include "player.h"
 #include "level.h"
+#include "win_platform.h"
 #include <godot_cpp/core/class_db.hpp>
 
 using namespace godot;
@@ -9,6 +10,7 @@ void initialize_platformer_module(ModuleInitializationLevel level) {
     if (level != MODULE_INITIALIZATION_LEVEL_SCENE) return;
     ClassDB::register_class<Player>();
     ClassDB::register_class<Level>(); 
+    ClassDB::register_class<WinPlatform>();
 }
 
 void uninitialize_platformer_module(ModuleInitializationLevel level) {}
