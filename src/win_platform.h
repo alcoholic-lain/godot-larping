@@ -20,6 +20,7 @@ public:
     void _on_body_exited(Node2D *body);
 private:
     bool won = false;
+    void do_win();
 };
 
 } // namespace godot

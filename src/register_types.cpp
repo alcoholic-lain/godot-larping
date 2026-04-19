@@ -2,6 +2,9 @@
 #include "player.h"
 #include "level.h"
 #include "win_platform.h"
+#include "win_screen.h"
+#include "main_menu.h"
+#include "frame.h"
 #include <godot_cpp/core/class_db.hpp>
 
 using namespace godot;
@@ -11,6 +14,9 @@ void initialize_platformer_module(ModuleInitializationLevel level) {
     ClassDB::register_class<Player>();
     ClassDB::register_class<Level>(); 
     ClassDB::register_class<WinPlatform>();
+    ClassDB::register_class<WinScreen>(); 
+    ClassDB::register_class<MainMenu>();
+    ClassDB::register_class<Frame>();
 }
 
 void uninitialize_platformer_module(ModuleInitializationLevel level) {}
