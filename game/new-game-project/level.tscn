@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://bffs0yqr2jdrx"]
+
+[ext_resource type="PackedScene" uid="uid://ckudr8chj1kgo" path="res://player.tscn" id="1_u52ul"]
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_vonw3"]
+
+[node name="level" type="Level" unique_id=1503370462]
+level_width = 1152.0
+level_height = 648.0
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=170575764]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=1775786219]
+visible = false
+shape = SubResource("WorldBoundaryShape2D_vonw3")
+
+[node name="player" parent="." unique_id=1355497125 instance=ExtResource("1_u52ul")]
+position = Vector2(57.99997, -113777610)
+velocity = Vector2(0, 122980.734)
+
+[node name="Camera2D2" type="Camera2D" parent="player" unique_id=504109166]
+position = Vector2(-54, -172)
