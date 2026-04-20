@@ -22,6 +22,12 @@ add_library(platformer SHARED
     src/win_screen.cpp
     src/main_menu.cpp
     src/frame.cpp
+    src/platform.cpp
+    src/collectable.cpp
+    src/orb.cpp
+    src/spike.cpp
+    src/lose_screen.cpp
+    src/kill_platform.cpp
 )
 
 target_include_directories(platformer PRIVATE src/)

@@ -1,6 +1,8 @@
 #pragma once
 #include <godot_cpp/classes/character_body2d.hpp>
 #include <godot_cpp/classes/node2d.hpp>
+#include <godot_cpp/classes/color_rect.hpp>
+#include <godot_cpp/classes/polygon2d.hpp> 
 
 namespace godot {
 
@@ -15,6 +17,9 @@ private:
     // ── eye nodes (pupils inside each eye socket) ──
     Node2D *left_pupil  = nullptr;
     Node2D *right_pupil = nullptr;
+
+    // Color polygon for body
+    Polygon2D *color_polygon = nullptr;
 
     // idle goof state
     float idle_timer     = 0.0f;   // counts up; triggers a new wander target
@@ -38,6 +43,9 @@ protected:
 public:
     void _ready() override;
     void _physics_process(double delta) override;
+
+    void set_color(Color c);
+    Color get_color() const;
 };
 
 } // namespace godot

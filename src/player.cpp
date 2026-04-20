@@ -1,71 +1,96 @@
 #include "player.h"
 #include <godot_cpp/core/class_db.hpp>
 #include <godot_cpp/classes/input.hpp>
-#include <godot_cpp/classes/color_rect.hpp>
+#include <godot_cpp/classes/polygon2d.hpp>
 #include <godot_cpp/variant/utility_functions.hpp>
 #include <cmath>
 
 using namespace godot;
 
 // ─────────────────────────────────────────────
-//  tiny helper: draw a filled circle via a
-//  square ColorRect rotated 45° — cheap & clean
+//  Build a filled circle as a Polygon2D
 // ─────────────────────────────────────────────
-static Node2D *make_circle(float radius, Color color) {
-    // We use a ColorRect sized to the diameter and offset by -radius so
-    // its visual centre sits at (0,0) of the returned Node2D.
-    Node2D *pivot = memnew(Node2D);
-
-    ColorRect *rect = memnew(ColorRect);
-    float d = radius * 2.0f;
-    rect->set_size(Vector2(d, d));
-    rect->set_position(Vector2(-radius, -radius));
-    rect->set_color(color);
-    pivot->add_child(rect);
-
-    return pivot;
+static Polygon2D *make_circle_poly(float radius, Color color, int segs = 16) {
+    Polygon2D *poly = memnew(Polygon2D);
+    PackedVector2Array pts;
+    for (int i = 0; i < segs; i++) {
+        float angle = Math_TAU * (float)i / (float)segs;
+        pts.push_back(Vector2(Math::cos(angle) * radius, Math::sin(angle) * radius));
+    }
+    poly->set_polygon(pts);
+    poly->set_color(color);
+    return poly;
 }
 
 void Player::_bind_methods() {}
 
 // ─────────────────────────────────────────────
 void Player::create_eyes() {
-    // Eye sockets: white discs
-    // Player body is assumed ~32×32; eyes sit at roughly y = -8 from centre
-    const float SOCKET_R = 6.0f;
-    const float PUPIL_R  = 3.0f;
-    const Color WHITE     = Color(1, 1, 1, 1);
-    const Color BLACK     = Color(0.05f, 0.05f, 0.05f, 1);
+    const float SOCKET_R = 5.0f;
+    const float PUPIL_R  = 2.5f;
+    const Color WHITE    = Color(1, 1, 1, 1);
+    const Color BLACK    = Color(0.05f, 0.05f, 0.05f, 1);
 
-    // offsets from player origin (centre of body)
-    const Vector2 LEFT_POS  = Vector2(-9, -8);
-    const Vector2 RIGHT_POS = Vector2( 9, -8);
+    const Vector2 LEFT_POS  = Vector2(-10, -14);
+    const Vector2 RIGHT_POS = Vector2( 10, -14);
 
-    // left socket
-    Node2D *l_socket = make_circle(SOCKET_R, WHITE);
+    // Left eye
+    Node2D *l_socket = memnew(Node2D);
     l_socket->set_position(LEFT_POS);
+    l_socket->add_child(make_circle_poly(SOCKET_R, WHITE));
     add_child(l_socket);
 
-    // left pupil (child of socket so it inherits position)
-    left_pupil = make_circle(PUPIL_R, BLACK);
-    left_pupil->set_position(Vector2(0, 0));
+    left_pupil = memnew(Node2D);
+    left_pupil->add_child(make_circle_poly(PUPIL_R, BLACK));
     l_socket->add_child(left_pupil);
 
-    // right socket
-    Node2D *r_socket = make_circle(SOCKET_R, WHITE);
+    // Right eye
+    Node2D *r_socket = memnew(Node2D);
     r_socket->set_position(RIGHT_POS);
+    r_socket->add_child(make_circle_poly(SOCKET_R, WHITE));
     add_child(r_socket);
 
-    // right pupil
-    right_pupil = make_circle(PUPIL_R, BLACK);
-    right_pupil->set_position(Vector2(0, 0));
+    right_pupil = memnew(Node2D);
+    right_pupil->add_child(make_circle_poly(PUPIL_R, BLACK));
     r_socket->add_child(right_pupil);
 }
 
 // ─────────────────────────────────────────────
 void Player::_ready() {
+    // Build rounded-rectangle body matching CapsuleShape2D(radius=20, height=60)
+    color_polygon = memnew(Polygon2D);
+
+    PackedVector2Array points;
+    const float W    = 20.0f;
+    const float H    = 30.0f;
+    const float R    = 10.0f;
+    const int   SEGS = 10;
+
+    struct Corner { float cx, cy, a0; };
+    Corner corners[4] = {
+        {  W - R,  H - R,  0.0f           },
+        { -W + R,  H - R,  Math_PI * 0.5f },
+        { -W + R, -H + R,  Math_PI        },
+        {  W - R, -H + R,  Math_PI * 1.5f },
+    };
+
+    for (auto &c : corners) {
+        for (int i = 0; i <= SEGS; i++) {
+            float angle = c.a0 + (Math_PI * 0.5f) * (float)i / (float)SEGS;
+            points.push_back(Vector2(
+                c.cx + Math::cos(angle) * R,
+                c.cy + Math::sin(angle) * R
+            ));
+        }
+    }
+
+    color_polygon->set_polygon(points);
+    color_polygon->set_color(Color(1, 0.4f, 0.1f, 1));
+    add_child(color_polygon);
+
+    // Eyes drawn on top
     create_eyes();
-    // seed a random idle target
+
     idle_target = Vector2(
         (float)(UtilityFunctions::randf() * 2.0 - 1.0) * EYE_RADIUS,
         (float)(UtilityFunctions::randf() * 2.0 - 1.0) * EYE_RADIUS
@@ -78,19 +103,15 @@ void Player::update_eyes(double delta, float direction, bool on_floor, bool pres
     float   lerp_speed;
 
     if (pressing_down) {
-        // ── look down ──
         target     = Vector2(0, EYE_RADIUS);
         lerp_speed = LERP_FAST;
     } else if (!on_floor) {
-        // ── in the air: look up-ish ──
         target     = Vector2(direction * EYE_RADIUS * 0.4f, -EYE_RADIUS);
         lerp_speed = LERP_FAST;
     } else if (direction != 0.0f) {
-        // ── moving: look sideways ──
         target     = Vector2(direction * EYE_RADIUS, 0);
         lerp_speed = LERP_FAST;
     } else {
-        // ── idle: goofing around ──
         lerp_speed = LERP_IDLE;
 
         idle_timer += (float)delta;
@@ -98,25 +119,20 @@ void Player::update_eyes(double delta, float direction, bool on_floor, bool pres
             idle_timer    = 0.0f;
             idle_interval = 1.2f + (float)UtilityFunctions::randf() * 2.0f;
 
-            // pick a new random target within the socket
             float angle = (float)UtilityFunctions::randf() * Math_TAU;
             float dist  = (float)UtilityFunctions::randf() * EYE_RADIUS;
             idle_target = Vector2(Math::cos(angle) * dist, Math::sin(angle) * dist);
 
-            // 20% chance: do a quick cross-eye gag (pupils drift inward)
-            if (UtilityFunctions::randf() < 0.2f) {
+            if (UtilityFunctions::randf() < 0.2f)
                 idle_target.x = (direction >= 0 ? -1 : 1) * EYE_RADIUS * 0.8f;
-            }
         }
         target = idle_target;
     }
 
-    // smooth lerp both pupils toward target
     float t = (float)delta * lerp_speed;
     left_offset  = left_offset.lerp(target, t);
     right_offset = right_offset.lerp(target, t);
 
-    // slight asymmetry: right eye lags a tiny bit for personality
     Vector2 right_lazy = right_offset.lerp(left_offset, 0.15f);
 
     left_pupil->set_position(left_offset);
@@ -131,7 +147,6 @@ void Player::_physics_process(double delta) {
         velocity.y += gravity * (float)delta;
 
     Input *input = Input::get_singleton();
-
     bool pressing_down = input->is_action_pressed("ui_down");
 
     if (input->is_action_just_pressed("ui_accept") && is_on_floor())
@@ -143,7 +158,18 @@ void Player::_physics_process(double delta) {
     set_velocity(velocity);
     move_and_slide();
 
-    // update eyes after movement is resolved
     if (left_pupil && right_pupil)
         update_eyes(delta, direction, is_on_floor(), pressing_down);
+}
+
+// ─────────────────────────────────────────────
+void Player::set_color(Color c) {
+    if (color_polygon)
+        color_polygon->set_color(c);
+}
+
+Color Player::get_color() const {
+    if (color_polygon)
+        return color_polygon->get_color();
+    return Color(1, 0.4f, 0.1f, 1);
 }

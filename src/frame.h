@@ -11,8 +11,8 @@ class Frame : public Node2D {
     GDCLASS(Frame, Node2D)
 
 private:
-    float level_width    = 1152.0f;
-    float level_height   = 648.0f;
+    float level_width    = 2 * 1152.0f;
+    float level_height   = 2 * 648.0f;
     float wall_thickness = 24.0f;
 
     void create_bounds();
