@@ -5,6 +5,18 @@
 
 using namespace godot;
 
+
+
+
+
+
+
+/*
+let's remake color switch castle mode , you can mix colors in you color inventory  , and portals with diffrent colors kill you , we may add NPCs along the way 
+
+
+*/
+
 void Level::_bind_methods() {}
 
 void Level::_ready() {
