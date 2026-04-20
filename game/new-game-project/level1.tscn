@@ -1,19 +1,14 @@
 [gd_scene format=3 uid="uid://cwwu4rl5lhgfg"]
 
 [ext_resource type="PackedScene" path="res://player.tscn" id="1_player"]
-[ext_resource type="PackedScene" uid="uid://bffs0yqr2jdrx" path="res://frame.tscn" id="2_frame"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_1"]
-radius = 8.0
+radius = 8.246211
 
 [node name="Level1" type="Level" unique_id=732099620]
-level_width = 1600.0
-level_height = 900.0
-
-[node name="Frame" parent="." unique_id=295691010 instance=ExtResource("2_frame")]
 
 [node name="Player" parent="." unique_id=947182646 instance=ExtResource("1_player")]
-position = Vector2(120, 433.99374)
+position = Vector2(756, 585.93713)
 
 [node name="Floor" type="Platform" parent="." unique_id=1212116906]
 plat_size = Vector2(1152, 32)
@@ -27,38 +22,40 @@ position = Vector2(250, 480)
 position = Vector2(576, 370)
 
 [node name="Platform3" type="Platform" parent="." unique_id=496176532]
-position = Vector2(900, 260)
+position = Vector2(912, 310)
 
 [node name="WinPlatform" type="WinPlatform" parent="." unique_id=570983716]
-position = Vector2(576, 150)
+position = Vector2(485, 183)
 
 [node name="Spike" type="Spike" parent="." unique_id=2118000911]
-position = Vector2(197, 472)
+position = Vector2(451, 320)
 
 [node name="BlueSpike" type="Spike" parent="." unique_id=1610013627]
 spike_color = Color(0, 0, 1, 1)
-position = Vector2(1000, 200)
+position = Vector2(566, 136)
 
 [node name="RedOrb" type="Orb" parent="." unique_id=2113391689]
 obj_name = "Red Orb"
 color = Color(1, 0, 0, 1)
-position = Vector2(250, 448.64453)
+position = Vector2(136, 431)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="RedOrb" unique_id=1911826206]
+position = Vector2(-1, -7)
 shape = SubResource("CircleShape2D_1")
 
 [node name="BlueOrb" type="Orb" parent="." unique_id=988117180]
 obj_name = "Blue Orb"
 color = Color(0, 0, 1, 1)
-position = Vector2(900, 238.64452)
+position = Vector2(971, 236)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="BlueOrb" unique_id=788023763]
+position = Vector2(1, 1.9999847)
 shape = SubResource("CircleShape2D_1")
 
 [node name="Orb" type="Orb" parent="." unique_id=1617317415]
 obj_name = "Color Orb"
 color = Color(0, 1, 0, 1)
-position = Vector2(576, 318.64453)
+position = Vector2(576, 317.36917)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Orb" unique_id=1261922792]
 shape = SubResource("CircleShape2D_1")

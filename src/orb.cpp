@@ -26,26 +26,24 @@ void Orb::_bind_methods() {
 void Orb::_ready() {
     connect("body_entered", Callable(this, "_on_body_entered"));
 
-    // Store original Y position
-    original_y = get_position().y;
-
-    // Add visual representation (smaller)
+    // Add visual representation
     visual = memnew(ColorRect);
     visual->set_size(Vector2(16, 16));
-    visual->set_position(Vector2(-8, -8)); // Center it
+    visual->set_position(Vector2(-8, -8)); 
     visual->set_color(color);
     add_child(visual);
 
-    // Enable processing for floating
     set_process(true);
 }
 
 void Orb::_process(double delta) {
     time_passed += delta;
     float offset_y = sin(time_passed * float_frequency) * float_amplitude;
-    Vector2 pos = get_position();
-    pos.y = original_y + offset_y;
-    set_position(pos);
+    
+    // Move only the visual part, not the whole Orb node
+    if (visual) {
+        visual->set_position(Vector2(-8, -8 + offset_y)); // -8 to keep it centered
+    }
 }
 
 void Orb::_on_body_entered(Node* body) {

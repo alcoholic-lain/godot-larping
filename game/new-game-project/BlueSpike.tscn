@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://b0dlc13y0boqo"]
+
+[node name="Spike" type="Spike" unique_id=711909681]
+spike_color = Color(0, 0, 0.827451, 1)
+hitbox_size = Vector2(15, 20)

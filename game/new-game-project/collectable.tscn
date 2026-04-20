@@ -1,0 +1,4 @@
+[gd_scene format=3 uid="uid://cxqr12oh286w2"]
+
+[node name="floating obj" type="Collectable" unique_id=705847646]
+position = Vector2(525, 307)

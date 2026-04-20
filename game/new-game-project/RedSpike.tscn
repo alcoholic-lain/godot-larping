@@ -1,0 +1,4 @@
+[gd_scene format=3 uid="uid://dnpswsvkqr0gw"]
+
+[node name="Spike" type="Spike" unique_id=711909681]
+hitbox_size = Vector2(15, 20)
