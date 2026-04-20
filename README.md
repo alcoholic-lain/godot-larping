@@ -37,10 +37,9 @@ This project is a 2D platformer game featuring a player character navigating lev
 
 3. Build the project:
    ```
-   mkdir build
-   cd build
-   cmake ..
-   ninja
+   mkdir -p build
+   cmake -S . -B build
+   cmake --build build
    ```
 
 4. Copy the extension to the Godot project:
@@ -50,8 +49,22 @@ This project is a 2D platformer game featuring a player character navigating lev
 
 ## Running
 
-1. Open the Godot project in the `game/` directory.
-2. Run the project from the Godot editor or export it.
+### From Godot Editor
+1. Open the Godot project in the `game/new-game-project/` directory.
+2. Run the project from the Godot editor.
+
+### From Terminal
+If Godot is installed, run the project directly:
+```
+godot --path /home/lain/platformer/game/new-game-project/
+```
+
+### Exported Game
+Run the standalone executable:
+```
+cd game/new-game-project/
+./platforming.sh
+```
 
 ## Project Structure
 

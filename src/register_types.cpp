@@ -11,12 +11,12 @@ using namespace godot;
 
 void initialize_platformer_module(ModuleInitializationLevel level) {
     if (level != MODULE_INITIALIZATION_LEVEL_SCENE) return;
+    ClassDB::register_class<Frame>();    // must come before Level (which inherits Frame)
     ClassDB::register_class<Player>();
     ClassDB::register_class<Level>(); 
     ClassDB::register_class<WinPlatform>();
     ClassDB::register_class<WinScreen>(); 
     ClassDB::register_class<MainMenu>();
-    ClassDB::register_class<Frame>();
 }
 
 void uninitialize_platformer_module(ModuleInitializationLevel level) {}
