@@ -1,0 +1,4 @@
+[gd_scene format=3 uid="uid://brdi30bfe18ek"]
+
+[node name="Main" type="MnmsGameDirector" unique_id=984929220]
+position = Vector2(105, 80)

@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://b5tnccww5ahp0"]
+
+[ext_resource type="Script" path="res://tools/rebuild_mnms_converted.gd" id="1_f5b6b"]
+
+[node name="RebuildMnmsConverted" type="Node" unique_id=2130670039]
+script = ExtResource("1_f5b6b")

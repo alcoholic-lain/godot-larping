@@ -1,0 +1,662 @@
+[gd_resource type="MnmsThemeResource" format=3]
+
+[resource]
+theme_id = "cloudscape"
+name = "Cloudscape"
+block_texture_map = {
+"Block": "tiles/tiles.png",
+"Button": "tiles/tiles.png",
+"Checkpoint": "tiles/tiles.png",
+"Collectable": "tiles/tiles.png",
+"ConveyorBelt": "tiles/tiles.png",
+"Exit": "tiles/tiles.png",
+"Fragile": "tiles/tiles.png",
+"MovingBlock": "tiles/tiles.png",
+"MovingShadowBlock": "tiles/tiles.png",
+"MovingShadowSpikes": "tiles/tiles.png",
+"MovingSpikes": "tiles/tiles.png",
+"NotificationBlock": "tiles/tiles.png",
+"PlayerStart": "tiles/tiles.png",
+"Pushable": "tiles/tiles.png",
+"ShadowBlock": "tiles/tiles.png",
+"ShadowConveyorBelt": "tiles/tiles.png",
+"ShadowFragile": "tiles/tiles.png",
+"ShadowPushable": "tiles/tiles.png",
+"ShadowSpikes": "tiles/tiles.png",
+"ShadowStart": "tiles/tiles.png",
+"Spikes": "tiles/tiles.png",
+"Swap": "tiles/swap.png",
+"Switch": "tiles/tiles.png",
+"Teleporter": "tiles/tiles.png"
+}
+character_texture_map = {
+"Player": "res://mnms_source_data/themes/Cloudscape/characters/player.png",
+"Shadow": "res://mnms_source_data/themes/Cloudscape/characters/shadow.png"
+}
+character_state_map = {
+"Player": {
+"dead": {
+"frames": [{
+"duration": 0.1,
+"h": 54.0,
+"w": 23.0,
+"x": 69.0,
+"y": 0.0
+}],
+"loop": false,
+"texture_path": "res://mnms_source_data/themes/Cloudscape/characters/deathright.png"
+},
+"dieleft": {
+"frames": [{
+"duration": 0.125,
+"h": 54.0,
+"w": 23.0,
+"x": 0.0,
+"y": 0.0
+}, {
+"duration": 0.125,
+"h": 54.0,
+"w": 23.0,
+"x": 23.0,
+"y": 0.0
+}, {
+"duration": 0.125,
+"h": 54.0,
+"w": 23.0,
+"x": 46.0,
+"y": 0.0
+}, {
+"duration": 0.125,
+"h": 54.0,
+"w": 23.0,
+"x": 69.0,
+"y": 0.0
+}, {
+"duration": 0.125,
+"h": 54.0,
+"w": 23.0,
+"x": 92.0,
+"y": 0.0
+}],
+"loop": true,
+"texture_path": "res://mnms_source_data/themes/Cloudscape/characters/deathleft.png"
+},
+"dieright": {
+"frames": [{
+"duration": 0.125,
+"h": 54.0,
+"w": 23.0,
+"x": 0.0,
+"y": 0.0
+}, {
+"duration": 0.125,
+"h": 54.0,
+"w": 23.0,
+"x": 23.0,
+"y": 0.0
+}, {
+"duration": 0.125,
+"h": 54.0,
+"w": 23.0,
+"x": 46.0,
+"y": 0.0
+}, {
+"duration": 0.125,
+"h": 54.0,
+"w": 23.0,
+"x": 69.0,
+"y": 0.0
+}, {
+"duration": 0.125,
+"h": 54.0,
+"w": 23.0,
+"x": 92.0,
+"y": 0.0
+}],
+"loop": true,
+"texture_path": "res://mnms_source_data/themes/Cloudscape/characters/deathright.png"
+},
+"fallleft": {
+"frames": [{
+"duration": 0.1,
+"h": 40.0,
+"w": 23.0,
+"x": 299.0,
+"y": 0.0
+}],
+"loop": false,
+"texture_path": "res://mnms_source_data/themes/Cloudscape/characters/player.png"
+},
+"fallright": {
+"frames": [{
+"duration": 0.1,
+"h": 40.0,
+"w": 23.0,
+"x": 253.0,
+"y": 0.0
+}],
+"loop": false,
+"texture_path": "res://mnms_source_data/themes/Cloudscape/characters/player.png"
+},
+"holding": {
+"frames": [{
+"duration": 0.1,
+"h": 40.0,
+"w": 23.0,
+"x": 322.0,
+"y": 0.0
+}],
+"loop": false,
+"texture_path": "res://mnms_source_data/themes/Cloudscape/characters/player.png"
+},
+"jumpleft": {
+"frames": [{
+"duration": 0.1,
+"h": 40.0,
+"w": 23.0,
+"x": 276.0,
+"y": 0.0
+}],
+"loop": false,
+"texture_path": "res://mnms_source_data/themes/Cloudscape/characters/player.png"
+},
+"jumpright": {
+"frames": [{
+"duration": 0.1,
+"h": 40.0,
+"w": 23.0,
+"x": 230.0,
+"y": 0.0
+}],
+"loop": false,
+"texture_path": "res://mnms_source_data/themes/Cloudscape/characters/player.png"
+},
+"line": {
+"frames": [{
+"duration": 0.1,
+"h": 5.0,
+"w": 5.0,
+"x": 0.0,
+"y": 0.0
+}],
+"loop": false,
+"texture_path": "res://mnms_source_data/themes/Cloudscape/characters/line.png"
+},
+"pushleft": {
+"frames": [{
+"duration": 0.05,
+"h": 40.0,
+"w": 23.0,
+"x": 138.0,
+"y": 40.0
+}, {
+"duration": 0.05,
+"h": 40.0,
+"w": 23.0,
+"x": 161.0,
+"y": 40.0
+}, {
+"duration": 0.05,
+"h": 40.0,
+"w": 23.0,
+"x": 184.0,
+"y": 40.0
+}, {
+"duration": 0.05,
+"h": 40.0,
+"w": 23.0,
+"x": 207.0,
+"y": 40.0
+}, {
+"duration": 0.05,
+"h": 40.0,
+"w": 23.0,
+"x": 230.0,
+"y": 40.0
+}],
+"loop": true,
+"texture_path": "res://mnms_source_data/themes/Cloudscape/characters/player.png"
+},
+"pushright": {
+"frames": [{
+"duration": 0.05,
+"h": 40.0,
+"w": 23.0,
+"x": 23.0,
+"y": 40.0
+}, {
+"duration": 0.05,
+"h": 40.0,
+"w": 23.0,
+"x": 46.0,
+"y": 40.0
+}, {
+"duration": 0.05,
+"h": 40.0,
+"w": 23.0,
+"x": 69.0,
+"y": 40.0
+}, {
+"duration": 0.05,
+"h": 40.0,
+"w": 23.0,
+"x": 92.0,
+"y": 40.0
+}, {
+"duration": 0.05,
+"h": 40.0,
+"w": 23.0,
+"x": 115.0,
+"y": 40.0
+}],
+"loop": true,
+"texture_path": "res://mnms_source_data/themes/Cloudscape/characters/player.png"
+},
+"standleft": {
+"frames": [{
+"duration": 0.1,
+"h": 40.0,
+"w": 23.0,
+"x": 115.0,
+"y": 0.0
+}],
+"loop": false,
+"texture_path": "res://mnms_source_data/themes/Cloudscape/characters/player.png"
+},
+"standright": {
+"frames": [{
+"duration": 0.1,
+"h": 40.0,
+"w": 23.0,
+"x": 0.0,
+"y": 0.0
+}],
+"loop": false,
+"texture_path": "res://mnms_source_data/themes/Cloudscape/characters/player.png"
+},
+"walkleft": {
+"frames": [{
+"duration": 0.05,
+"h": 40.0,
+"w": 23.0,
+"x": 138.0,
+"y": 0.0
+}, {
+"duration": 0.05,
+"h": 40.0,
+"w": 23.0,
+"x": 161.0,
+"y": 0.0
+}, {
+"duration": 0.05,
+"h": 40.0,
+"w": 23.0,
+"x": 184.0,
+"y": 0.0
+}, {
+"duration": 0.05,
+"h": 40.0,
+"w": 23.0,
+"x": 207.0,
+"y": 0.0
+}, {
+"duration": 0.05,
+"h": 40.0,
+"w": 23.0,
+"x": 230.0,
+"y": 0.0
+}],
+"loop": true,
+"texture_path": "res://mnms_source_data/themes/Cloudscape/characters/player.png"
+},
+"walkright": {
+"frames": [{
+"duration": 0.05,
+"h": 40.0,
+"w": 23.0,
+"x": 23.0,
+"y": 0.0
+}, {
+"duration": 0.05,
+"h": 40.0,
+"w": 23.0,
+"x": 46.0,
+"y": 0.0
+}, {
+"duration": 0.05,
+"h": 40.0,
+"w": 23.0,
+"x": 69.0,
+"y": 0.0
+}, {
+"duration": 0.05,
+"h": 40.0,
+"w": 23.0,
+"x": 92.0,
+"y": 0.0
+}, {
+"duration": 0.05,
+"h": 40.0,
+"w": 23.0,
+"x": 115.0,
+"y": 0.0
+}],
+"loop": true,
+"texture_path": "res://mnms_source_data/themes/Cloudscape/characters/player.png"
+}
+},
+"Shadow": {
+"dead": {
+"frames": [{
+"duration": 0.1,
+"h": 54.0,
+"w": 23.0,
+"x": 69.0,
+"y": 0.0
+}],
+"loop": false,
+"texture_path": "res://mnms_source_data/themes/Cloudscape/characters/shadowdeathright.png"
+},
+"dieleft": {
+"frames": [{
+"duration": 0.125,
+"h": 54.0,
+"w": 23.0,
+"x": 0.0,
+"y": 0.0
+}, {
+"duration": 0.125,
+"h": 54.0,
+"w": 23.0,
+"x": 23.0,
+"y": 0.0
+}, {
+"duration": 0.125,
+"h": 54.0,
+"w": 23.0,
+"x": 46.0,
+"y": 0.0
+}, {
+"duration": 0.125,
+"h": 54.0,
+"w": 23.0,
+"x": 69.0,
+"y": 0.0
+}, {
+"duration": 0.125,
+"h": 54.0,
+"w": 23.0,
+"x": 92.0,
+"y": 0.0
+}],
+"loop": true,
+"texture_path": "res://mnms_source_data/themes/Cloudscape/characters/shadowdeathleft.png"
+},
+"dieright": {
+"frames": [{
+"duration": 0.125,
+"h": 54.0,
+"w": 23.0,
+"x": 0.0,
+"y": 0.0
+}, {
+"duration": 0.125,
+"h": 54.0,
+"w": 23.0,
+"x": 23.0,
+"y": 0.0
+}, {
+"duration": 0.125,
+"h": 54.0,
+"w": 23.0,
+"x": 46.0,
+"y": 0.0
+}, {
+"duration": 0.125,
+"h": 54.0,
+"w": 23.0,
+"x": 69.0,
+"y": 0.0
+}, {
+"duration": 0.125,
+"h": 54.0,
+"w": 23.0,
+"x": 92.0,
+"y": 0.0
+}],
+"loop": true,
+"texture_path": "res://mnms_source_data/themes/Cloudscape/characters/shadowdeathright.png"
+},
+"fallleft": {
+"frames": [{
+"duration": 0.1,
+"h": 40.0,
+"w": 23.0,
+"x": 299.0,
+"y": 0.0
+}],
+"loop": false,
+"texture_path": "res://mnms_source_data/themes/Cloudscape/characters/shadow.png"
+},
+"fallright": {
+"frames": [{
+"duration": 0.1,
+"h": 40.0,
+"w": 23.0,
+"x": 253.0,
+"y": 0.0
+}],
+"loop": false,
+"texture_path": "res://mnms_source_data/themes/Cloudscape/characters/shadow.png"
+},
+"holding": {
+"frames": [{
+"duration": 0.1,
+"h": 40.0,
+"w": 23.0,
+"x": 322.0,
+"y": 0.0
+}],
+"loop": false,
+"texture_path": "res://mnms_source_data/themes/Cloudscape/characters/shadow.png"
+},
+"jumpleft": {
+"frames": [{
+"duration": 0.1,
+"h": 40.0,
+"w": 23.0,
+"x": 276.0,
+"y": 0.0
+}],
+"loop": false,
+"texture_path": "res://mnms_source_data/themes/Cloudscape/characters/shadow.png"
+},
+"jumpright": {
+"frames": [{
+"duration": 0.1,
+"h": 40.0,
+"w": 23.0,
+"x": 230.0,
+"y": 0.0
+}],
+"loop": false,
+"texture_path": "res://mnms_source_data/themes/Cloudscape/characters/shadow.png"
+},
+"line": {
+"frames": [{
+"duration": 0.1,
+"h": 5.0,
+"w": 5.0,
+"x": 0.0,
+"y": 0.0
+}],
+"loop": false,
+"texture_path": "res://mnms_source_data/themes/Cloudscape/characters/line.png"
+},
+"pushleft": {
+"frames": [{
+"duration": 0.05,
+"h": 40.0,
+"w": 23.0,
+"x": 138.0,
+"y": 40.0
+}, {
+"duration": 0.05,
+"h": 40.0,
+"w": 23.0,
+"x": 161.0,
+"y": 40.0
+}, {
+"duration": 0.05,
+"h": 40.0,
+"w": 23.0,
+"x": 184.0,
+"y": 40.0
+}, {
+"duration": 0.05,
+"h": 40.0,
+"w": 23.0,
+"x": 207.0,
+"y": 40.0
+}, {
+"duration": 0.05,
+"h": 40.0,
+"w": 23.0,
+"x": 230.0,
+"y": 40.0
+}],
+"loop": true,
+"texture_path": "res://mnms_source_data/themes/Cloudscape/characters/shadow.png"
+},
+"pushright": {
+"frames": [{
+"duration": 0.05,
+"h": 40.0,
+"w": 23.0,
+"x": 23.0,
+"y": 40.0
+}, {
+"duration": 0.05,
+"h": 40.0,
+"w": 23.0,
+"x": 46.0,
+"y": 40.0
+}, {
+"duration": 0.05,
+"h": 40.0,
+"w": 23.0,
+"x": 69.0,
+"y": 40.0
+}, {
+"duration": 0.05,
+"h": 40.0,
+"w": 23.0,
+"x": 92.0,
+"y": 40.0
+}, {
+"duration": 0.05,
+"h": 40.0,
+"w": 23.0,
+"x": 115.0,
+"y": 40.0
+}],
+"loop": true,
+"texture_path": "res://mnms_source_data/themes/Cloudscape/characters/shadow.png"
+},
+"standleft": {
+"frames": [{
+"duration": 0.1,
+"h": 40.0,
+"w": 23.0,
+"x": 115.0,
+"y": 0.0
+}],
+"loop": false,
+"texture_path": "res://mnms_source_data/themes/Cloudscape/characters/shadow.png"
+},
+"standright": {
+"frames": [{
+"duration": 0.1,
+"h": 40.0,
+"w": 23.0,
+"x": 0.0,
+"y": 0.0
+}],
+"loop": false,
+"texture_path": "res://mnms_source_data/themes/Cloudscape/characters/shadow.png"
+},
+"walkleft": {
+"frames": [{
+"duration": 0.05,
+"h": 40.0,
+"w": 23.0,
+"x": 138.0,
+"y": 0.0
+}, {
+"duration": 0.05,
+"h": 40.0,
+"w": 23.0,
+"x": 161.0,
+"y": 0.0
+}, {
+"duration": 0.05,
+"h": 40.0,
+"w": 23.0,
+"x": 184.0,
+"y": 0.0
+}, {
+"duration": 0.05,
+"h": 40.0,
+"w": 23.0,
+"x": 207.0,
+"y": 0.0
+}, {
+"duration": 0.05,
+"h": 40.0,
+"w": 23.0,
+"x": 230.0,
+"y": 0.0
+}],
+"loop": true,
+"texture_path": "res://mnms_source_data/themes/Cloudscape/characters/shadow.png"
+},
+"walkright": {
+"frames": [{
+"duration": 0.05,
+"h": 40.0,
+"w": 23.0,
+"x": 23.0,
+"y": 0.0
+}, {
+"duration": 0.05,
+"h": 40.0,
+"w": 23.0,
+"x": 46.0,
+"y": 0.0
+}, {
+"duration": 0.05,
+"h": 40.0,
+"w": 23.0,
+"x": 69.0,
+"y": 0.0
+}, {
+"duration": 0.05,
+"h": 40.0,
+"w": 23.0,
+"x": 92.0,
+"y": 0.0
+}, {
+"duration": 0.05,
+"h": 40.0,
+"w": 23.0,
+"x": 115.0,
+"y": 0.0
+}],
+"loop": true,
+"texture_path": "res://mnms_source_data/themes/Cloudscape/characters/shadow.png"
+}
+}
+}
+metadata = {
+"source_theme_path": "res://mnms_source_data/themes/Cloudscape/theme.mnmstheme"
+}
