@@ -1,0 +1,1284 @@
+.
+├── addons
+│   └── godot_mcp
+│       ├── mcp_client.gd
+│       ├── mcp_client.gd.uid
+│       ├── plugin.cfg
+│       ├── plugin.gd
+│       ├── plugin.gd.uid
+│       ├── tool_executor.gd
+│       ├── tool_executor.gd.uid
+│       ├── tools
+│       │   ├── asset_tools.gd
+│       │   ├── asset_tools.gd.uid
+│       │   ├── file_tools.gd
+│       │   ├── file_tools.gd.uid
+│       │   ├── project_tools.gd
+│       │   ├── project_tools.gd.uid
+│       │   ├── scene_tools.gd
+│       │   ├── scene_tools.gd.uid
+│       │   ├── script_tools.gd
+│       │   ├── script_tools.gd.uid
+│       │   ├── visualizer_tools.gd
+│       │   └── visualizer_tools.gd.uid
+│       └── utils
+│           ├── variant_codec.gd
+│           └── variant_codec.gd.uid
+├── bin
+│   ├── libmnms_port.windows.editor.x86_64.dll
+│   ├── libmnms_port.windows.editor.x86_64.exp
+│   ├── libmnms_port.windows.editor.x86_64.lib
+│   ├── libmnms_port.windows.template_debug.x86_64.dll
+│   ├── libmnms_port.windows.template_debug.x86_64.exp
+│   ├── libmnms_port.windows.template_debug.x86_64.lib
+│   ├── ~libmnms_port.windows.editor.x86_64.dll
+│   └── ~libmnms_port.windows.template_debug.x86_64.dll
+├── docs
+│   ├── classic_validation_matrix.md
+│   ├── iteration1_audit.md
+│   └── roadmap_status_audit.md
+├── files.txt
+├── godot-cpp
+├── icon.svg
+├── icon.svg.import
+├── main.tscn
+├── meandmyshadow-master
+│   └── meandmyshadow-master
+│       ├── AndroidAppSettings.cfg
+│       ├── appveyor-dep.yml
+│       ├── appveyor.yml
+│       ├── AUTHORS
+│       ├── ChangeLog
+│       ├── cmake
+│       │   └── Modules
+│       │       ├── FindLibArchive.cmake
+│       │       ├── FindSDL2.cmake
+│       │       ├── FindSDL2_gfx.cmake
+│       │       ├── FindSDL2_image.cmake
+│       │       ├── FindSDL2_mixer.cmake
+│       │       ├── FindSDL2_ttf.cmake
+│       │       ├── FindSDL_gfx.cmake
+│       │       └── module_licences.md
+│       ├── CMakeLists.txt
+│       ├── COPYING
+│       ├── data
+│       │   ├── Credits.txt
+│       │   ├── font
+│       │   │   ├── Blokletters-Viltstift.ttf
+│       │   │   ├── Blokletters-Viltstift.ttf.import
+│       │   │   ├── DejaVuSansCondensed-Oblique.ttf
+│       │   │   ├── DejaVuSansCondensed-Oblique.ttf.import
+│       │   │   ├── DejaVuSansCondensed.ttf
+│       │   │   ├── DejaVuSansCondensed.ttf.import
+│       │   │   ├── DejaVuSansMono.ttf
+│       │   │   ├── DejaVuSansMono.ttf.import
+│       │   │   ├── DroidSansFallback.ttf
+│       │   │   ├── DroidSansFallback.ttf.import
+│       │   │   ├── fonts.list
+│       │   │   ├── knewave.ttf
+│       │   │   └── knewave.ttf.import
+│       │   ├── gfx
+│       │   │   ├── achievements
+│       │   │   │   ├── acrobat.png
+│       │   │   │   ├── acrobat.png.import
+│       │   │   │   ├── addicted.png
+│       │   │   │   ├── addicted.png.import
+│       │   │   │   ├── box_delivery_company.png
+│       │   │   │   ├── box_delivery_company.png.import
+│       │   │   │   ├── broken_box.png
+│       │   │   │   ├── broken_box.png.import
+│       │   │   │   ├── broken_box2.png
+│       │   │   │   ├── broken_box2.png.import
+│       │   │   │   ├── broken_fragile.png
+│       │   │   │   ├── broken_fragile.png.import
+│       │   │   │   ├── carrier.png
+│       │   │   │   ├── carrier.png.import
+│       │   │   │   ├── cheat.png
+│       │   │   │   ├── cheat.png.import
+│       │   │   │   ├── collect1k.png
+│       │   │   │   ├── collect1k.png.import
+│       │   │   │   ├── complete_levelpack.png
+│       │   │   │   ├── complete_levelpack.png.import
+│       │   │   │   ├── constructor.png
+│       │   │   │   ├── constructor.png.import
+│       │   │   │   ├── constructor2.png
+│       │   │   │   ├── constructor2.png.import
+│       │   │   │   ├── create1.png
+│       │   │   │   ├── create1.png.import
+│       │   │   │   ├── create10.png
+│       │   │   │   ├── create10.png.import
+│       │   │   │   ├── die5in5.png
+│       │   │   │   ├── die5in5.png.import
+│       │   │   │   ├── die10in5.png
+│       │   │   │   ├── die10in5.png.import
+│       │   │   │   ├── die50.png
+│       │   │   │   ├── die50.png.import
+│       │   │   │   ├── die1000.png
+│       │   │   │   ├── die1000.png.import
+│       │   │   │   ├── doublekill.png
+│       │   │   │   ├── doublekill.png.import
+│       │   │   │   ├── duel.png
+│       │   │   │   ├── duel.png.import
+│       │   │   │   ├── experienced.png
+│       │   │   │   ├── experienced.png.import
+│       │   │   │   ├── expert.png
+│       │   │   │   ├── expert.png.import
+│       │   │   │   ├── forget.png
+│       │   │   │   ├── forget.png.import
+│       │   │   │   ├── helloworld.png
+│       │   │   │   ├── helloworld.png.import
+│       │   │   │   ├── jit.png
+│       │   │   │   ├── jit.png.import
+│       │   │   │   ├── jump1k.png
+│       │   │   │   ├── jump1k.png.import
+│       │   │   │   ├── jump100.png
+│       │   │   │   ├── jump100.png.import
+│       │   │   │   ├── load1k.png
+│       │   │   │   ├── load1k.png.import
+│       │   │   │   ├── loadanddie.png
+│       │   │   │   ├── loadanddie.png.import
+│       │   │   │   ├── loadanddie100.png
+│       │   │   │   ├── loadanddie100.png.import
+│       │   │   │   ├── loyalfan.png
+│       │   │   │   ├── loyalfan.png.import
+│       │   │   │   ├── panicload.png
+│       │   │   │   ├── panicload.png.import
+│       │   │   │   ├── panicsave.png
+│       │   │   │   ├── panicsave.png.import
+│       │   │   │   ├── programmer.png
+│       │   │   │   ├── programmer.png.import
+│       │   │   │   ├── quickswap.png
+│       │   │   │   ├── quickswap.png.import
+│       │   │   │   ├── record100.png
+│       │   │   │   ├── record100.png.import
+│       │   │   │   ├── save1k.png
+│       │   │   │   ├── save1k.png.import
+│       │   │   │   ├── squash1.png
+│       │   │   │   ├── squash1.png.import
+│       │   │   │   ├── squash50.png
+│       │   │   │   ├── squash50.png.import
+│       │   │   │   ├── switch1k.png
+│       │   │   │   ├── switch1k.png.import
+│       │   │   │   ├── travel1k.png
+│       │   │   │   ├── travel1k.png.import
+│       │   │   │   ├── travel10k.png
+│       │   │   │   ├── travel10k.png.import
+│       │   │   │   ├── travel42k.png
+│       │   │   │   ├── travel42k.png.import
+│       │   │   │   ├── travel100.png
+│       │   │   │   ├── travel100.png.import
+│       │   │   │   ├── tutorial.png
+│       │   │   │   ├── tutorial.png.import
+│       │   │   │   ├── tutorialgold.png
+│       │   │   │   ├── tutorialgold.png.import
+│       │   │   │   ├── under_par.png
+│       │   │   │   ├── under_par.png.import
+│       │   │   │   ├── UNUSED_hook.png
+│       │   │   │   ├── UNUSED_hook.png.import
+│       │   │   │   ├── UNUSED_programmer.png
+│       │   │   │   ├── UNUSED_programmer.png.import
+│       │   │   │   ├── UNUSED_switch1k.png
+│       │   │   │   ├── UNUSED_switch1k.png.import
+│       │   │   │   ├── withoutsave.png
+│       │   │   │   └── withoutsave.png.import
+│       │   │   ├── actions.png
+│       │   │   ├── actions.png.import
+│       │   │   ├── addon0.png
+│       │   │   ├── addon0.png.import
+│       │   │   ├── addon1.png
+│       │   │   ├── addon1.png.import
+│       │   │   ├── addon2.png
+│       │   │   ├── addon2.png.import
+│       │   │   ├── addon3.png
+│       │   │   ├── addon3.png.import
+│       │   │   ├── dropshadow.png
+│       │   │   ├── dropshadow.png.import
+│       │   │   ├── emotions.png
+│       │   │   ├── emotions.png.import
+│       │   │   ├── gui.png
+│       │   │   ├── gui.png.import
+│       │   │   ├── leveltypes.png
+│       │   │   ├── leveltypes.png.import
+│       │   │   ├── medals.png
+│       │   │   ├── medals.png.import
+│       │   │   ├── menu
+│       │   │   │   ├── clear-progress.png
+│       │   │   │   ├── clear-progress.png.import
+│       │   │   │   ├── credits.png
+│       │   │   │   ├── credits.png.import
+│       │   │   │   ├── moving.png
+│       │   │   │   ├── moving.png.import
+│       │   │   │   ├── questionmark.png
+│       │   │   │   ├── questionmark.png.import
+│       │   │   │   ├── selection.png
+│       │   │   │   ├── selection.png.import
+│       │   │   │   ├── statistics.png
+│       │   │   │   ├── statistics.png.import
+│       │   │   │   ├── title.png
+│       │   │   │   ├── title.png.import
+│       │   │   │   ├── toolbar.png
+│       │   │   │   └── toolbar.png.import
+│       │   │   ├── playbutton.png
+│       │   │   ├── playbutton.png.import
+│       │   │   ├── recordings.png
+│       │   │   ├── recordings.png.import
+│       │   │   ├── screenshot.png
+│       │   │   ├── screenshot.png.import
+│       │   │   ├── time.png
+│       │   │   └── time.png.import
+│       │   ├── hyphenate
+│       │   │   ├── de
+│       │   │   ├── de_DE
+│       │   │   ├── en
+│       │   │   ├── es
+│       │   │   └── fr
+│       │   ├── levelpacks
+│       │   │   ├── classic
+│       │   │   │   ├── BabySteps.map
+│       │   │   │   ├── Carry.map
+│       │   │   │   ├── Control.map
+│       │   │   │   ├── Credits.map
+│       │   │   │   ├── End.map
+│       │   │   │   ├── FirstSpikes.map
+│       │   │   │   ├── FreeFall.map
+│       │   │   │   ├── FreeFall2.map
+│       │   │   │   ├── Headache.map
+│       │   │   │   ├── Here.map
+│       │   │   │   ├── Jumper.map
+│       │   │   │   ├── Jumping.map
+│       │   │   │   ├── Lab.map
+│       │   │   │   ├── LeftRight.map
+│       │   │   │   ├── levels.lst
+│       │   │   │   ├── LittleHelp.map
+│       │   │   │   ├── locale
+│       │   │   │   │   ├── ar.po
+│       │   │   │   │   ├── de.po
+│       │   │   │   │   ├── el.po
+│       │   │   │   │   ├── es.po
+│       │   │   │   │   ├── fi.po
+│       │   │   │   │   ├── fr.po
+│       │   │   │   │   ├── gd.po
+│       │   │   │   │   ├── hu.po
+│       │   │   │   │   ├── it.po
+│       │   │   │   │   ├── messages.pot
+│       │   │   │   │   ├── nb.po
+│       │   │   │   │   ├── nl.po
+│       │   │   │   │   ├── pl.po
+│       │   │   │   │   ├── pt.po
+│       │   │   │   │   ├── ru.po
+│       │   │   │   │   ├── th.po
+│       │   │   │   │   ├── uk.po
+│       │   │   │   │   ├── zh_CN.po
+│       │   │   │   │   └── zh_Hant.po
+│       │   │   │   ├── Road.map
+│       │   │   │   ├── Shadow.map
+│       │   │   │   ├── ShadowBlocks.map
+│       │   │   │   ├── SomeSpikes.map
+│       │   │   │   ├── Spiky.map
+│       │   │   │   ├── Timing.map
+│       │   │   │   ├── Tower.map
+│       │   │   │   ├── Tricky.map
+│       │   │   │   └── UpDown.map
+│       │   │   ├── cooperation
+│       │   │   │   ├── box_this_up.map
+│       │   │   │   ├── bridge_over_troubled_waters.map
+│       │   │   │   ├── brittle.map
+│       │   │   │   ├── conveyor_belt.map
+│       │   │   │   ├── diamonds.map
+│       │   │   │   ├── easter_egg_hunt.map
+│       │   │   │   ├── going_home.map
+│       │   │   │   ├── isopropanol.map
+│       │   │   │   ├── levels.lst
+│       │   │   │   ├── locale
+│       │   │   │   │   ├── ar.po
+│       │   │   │   │   ├── de.po
+│       │   │   │   │   ├── el.po
+│       │   │   │   │   ├── es.po
+│       │   │   │   │   ├── fi.po
+│       │   │   │   │   ├── fr.po
+│       │   │   │   │   ├── gd.po
+│       │   │   │   │   ├── hu.po
+│       │   │   │   │   ├── it.po
+│       │   │   │   │   ├── messages.pot
+│       │   │   │   │   ├── nb_NO.po
+│       │   │   │   │   ├── nl.po
+│       │   │   │   │   ├── pl.po
+│       │   │   │   │   ├── pt.po
+│       │   │   │   │   ├── ru.po
+│       │   │   │   │   ├── th.po
+│       │   │   │   │   ├── uk.po
+│       │   │   │   │   ├── zh_CN.po
+│       │   │   │   │   └── zh_Hant.po
+│       │   │   │   ├── mirror.map
+│       │   │   │   ├── obstacle_course.map
+│       │   │   │   ├── over_land_and_sea.map
+│       │   │   │   ├── prison_break.map
+│       │   │   │   ├── pushover.map
+│       │   │   │   ├── rats_in_a_maze.map
+│       │   │   │   ├── save_your_shadow.map
+│       │   │   │   ├── self_sacrifice.map
+│       │   │   │   ├── shadow_switch.map
+│       │   │   │   ├── skyline.map
+│       │   │   │   ├── sokoban.map
+│       │   │   │   ├── stacks.map
+│       │   │   │   ├── swap.map
+│       │   │   │   ├── switches.map
+│       │   │   │   ├── the_great_flood.map
+│       │   │   │   └── trap_dance.map
+│       │   │   ├── default
+│       │   │   │   ├── 1.map
+│       │   │   │   ├── 2.map
+│       │   │   │   ├── 3.map
+│       │   │   │   ├── 4.map
+│       │   │   │   ├── 5.map
+│       │   │   │   ├── levels.lst
+│       │   │   │   ├── locale
+│       │   │   │   │   ├── ar.po
+│       │   │   │   │   ├── de.po
+│       │   │   │   │   ├── el.po
+│       │   │   │   │   ├── es.po
+│       │   │   │   │   ├── fi.po
+│       │   │   │   │   ├── fr.po
+│       │   │   │   │   ├── gd.po
+│       │   │   │   │   ├── hu.po
+│       │   │   │   │   ├── it.po
+│       │   │   │   │   ├── messages.pot
+│       │   │   │   │   ├── nb.po
+│       │   │   │   │   ├── nl.po
+│       │   │   │   │   ├── pl.po
+│       │   │   │   │   ├── pt.po
+│       │   │   │   │   ├── ru.po
+│       │   │   │   │   ├── th.po
+│       │   │   │   │   ├── uk.po
+│       │   │   │   │   ├── zh_CN.po
+│       │   │   │   │   └── zh_Hant.po
+│       │   │   │   ├── map01.map
+│       │   │   │   ├── map02.map
+│       │   │   │   ├── map03.map
+│       │   │   │   ├── map04.map
+│       │   │   │   ├── map05.map
+│       │   │   │   ├── QuickSwap.map
+│       │   │   │   ├── Regroup.map
+│       │   │   │   ├── Remote.map
+│       │   │   │   ├── Skyscrapers.map
+│       │   │   │   ├── Sweeper.map
+│       │   │   │   ├── Switches.map
+│       │   │   │   ├── Timing.map
+│       │   │   │   ├── Towers.map
+│       │   │   │   └── Volcano.map
+│       │   │   └── tutorial
+│       │   │       ├── levels.lst
+│       │   │       ├── locale
+│       │   │       │   ├── ar.po
+│       │   │       │   ├── de.po
+│       │   │       │   ├── el.po
+│       │   │       │   ├── es.po
+│       │   │       │   ├── fi.po
+│       │   │       │   ├── fr.po
+│       │   │       │   ├── gd.po
+│       │   │       │   ├── hu.po
+│       │   │       │   ├── it.po
+│       │   │       │   ├── messages.pot
+│       │   │       │   ├── nb.po
+│       │   │       │   ├── nl.po
+│       │   │       │   ├── pl.po
+│       │   │       │   ├── pt.po
+│       │   │       │   ├── ru.po
+│       │   │       │   ├── th.po
+│       │   │       │   ├── uk.po
+│       │   │       │   ├── zh_CN.po
+│       │   │       │   └── zh_Hant.po
+│       │   │       ├── pushable.map
+│       │   │       ├── shadow_camera.map
+│       │   │       ├── tut01.map
+│       │   │       ├── tut02.map
+│       │   │       ├── tut03.map
+│       │   │       ├── tut04.map
+│       │   │       ├── tut05.map
+│       │   │       ├── tut06.map
+│       │   │       ├── tut07.map
+│       │   │       ├── tut08.map
+│       │   │       ├── tut09.map
+│       │   │       ├── tut10.map
+│       │   │       ├── tut11.map
+│       │   │       ├── tut12.map
+│       │   │       ├── tut13.map
+│       │   │       ├── tut14.map
+│       │   │       ├── tut15.map
+│       │   │       ├── tut16.map
+│       │   │       ├── tut17.map
+│       │   │       ├── tut18.map
+│       │   │       ├── tut19.map
+│       │   │       ├── tut20.map
+│       │   │       ├── tut21.map
+│       │   │       ├── tut22.map
+│       │   │       ├── tut23.map
+│       │   │       ├── tut24.map
+│       │   │       └── tut25.map
+│       │   ├── locale
+│       │   │   ├── ar.po
+│       │   │   ├── de.po
+│       │   │   ├── el.po
+│       │   │   ├── es.po
+│       │   │   ├── fi.po
+│       │   │   ├── fr.po
+│       │   │   ├── gd.po
+│       │   │   ├── hu.po
+│       │   │   ├── it.po
+│       │   │   ├── messages.pot
+│       │   │   ├── nb.po
+│       │   │   ├── nl.po
+│       │   │   ├── pl.po
+│       │   │   ├── pt.po
+│       │   │   ├── ru.po
+│       │   │   ├── th.po
+│       │   │   ├── uk.po
+│       │   │   ├── zh_CN.po
+│       │   │   ├── zh_Hant.po
+│       │   │   └── zh_TW.po
+│       │   ├── music
+│       │   │   ├── default.list
+│       │   │   ├── haunted.music
+│       │   │   ├── mams-masters_theatre-full_final.ogg
+│       │   │   ├── mams-masters_theatre-full_final.ogg.import
+│       │   │   ├── mams-menu_initial.ogg
+│       │   │   ├── mams-menu_initial.ogg.import
+│       │   │   ├── mams-menu_loop.ogg
+│       │   │   ├── mams-menu_loop.ogg.import
+│       │   │   ├── mams-neverending_stair-full_final.ogg
+│       │   │   ├── mams-neverending_stair-full_final.ogg.import
+│       │   │   ├── mams-the_haunted_mansion-full_final.ogg
+│       │   │   ├── mams-the_haunted_mansion-full_final.ogg.import
+│       │   │   ├── menu.music
+│       │   │   ├── neverending.music
+│       │   │   └── theatre.music
+│       │   ├── sfx
+│       │   │   ├── achievement.ogg
+│       │   │   ├── achievement.ogg.import
+│       │   │   ├── checkpoint.wav
+│       │   │   ├── checkpoint.wav.import
+│       │   │   ├── collect.wav
+│       │   │   ├── collect.wav.import
+│       │   │   ├── error.wav
+│       │   │   ├── error.wav.import
+│       │   │   ├── hit.wav
+│       │   │   ├── hit.wav.import
+│       │   │   ├── jump.wav
+│       │   │   ├── jump.wav.import
+│       │   │   ├── swap.wav
+│       │   │   ├── swap.wav.import
+│       │   │   ├── toggle.ogg
+│       │   │   └── toggle.ogg.import
+│       │   └── themes
+│       │       ├── classic
+│       │       │   ├── background.png
+│       │       │   ├── background.png.import
+│       │       │   ├── blocks
+│       │       │   │   ├── block.png
+│       │       │   │   ├── block.png.import
+│       │       │   │   ├── block2.png
+│       │       │   │   ├── block2.png.import
+│       │       │   │   ├── block3.png
+│       │       │   │   ├── block3.png.import
+│       │       │   │   ├── button.png
+│       │       │   │   ├── button.png.import
+│       │       │   │   ├── checkpoint.png
+│       │       │   │   ├── checkpoint.png.import
+│       │       │   │   ├── exit.png
+│       │       │   │   ├── exit.png.import
+│       │       │   │   ├── fragile.png
+│       │       │   │   ├── fragile.png.import
+│       │       │   │   ├── fragileshadow.png
+│       │       │   │   ├── fragileshadow.png.import
+│       │       │   │   ├── moving_block.png
+│       │       │   │   ├── moving_block.png.import
+│       │       │   │   ├── moving_block_2.png
+│       │       │   │   ├── moving_block_2.png.import
+│       │       │   │   ├── moving_shadowblock.png
+│       │       │   │   ├── moving_shadowblock.png.import
+│       │       │   │   ├── moving_shadowblock_2.png
+│       │       │   │   ├── moving_shadowblock_2.png.import
+│       │       │   │   ├── moving_shadowspikes.png
+│       │       │   │   ├── moving_shadowspikes.png.import
+│       │       │   │   ├── moving_spikes.png
+│       │       │   │   ├── moving_spikes.png.import
+│       │       │   │   ├── notification.png
+│       │       │   │   ├── notification.png.import
+│       │       │   │   ├── playerstart.png
+│       │       │   │   ├── playerstart.png.import
+│       │       │   │   ├── portal.png
+│       │       │   │   ├── portal.png.import
+│       │       │   │   ├── shadowblock.png
+│       │       │   │   ├── shadowblock.png.import
+│       │       │   │   ├── shadowspikes.png
+│       │       │   │   ├── shadowspikes.png.import
+│       │       │   │   ├── shadowstart.png
+│       │       │   │   ├── shadowstart.png.import
+│       │       │   │   ├── spikes.png
+│       │       │   │   ├── spikes.png.import
+│       │       │   │   ├── swap.png
+│       │       │   │   ├── swap.png.import
+│       │       │   │   ├── switch.png
+│       │       │   │   └── switch.png.import
+│       │       │   ├── Credits.txt
+│       │       │   ├── player
+│       │       │   │   ├── jumpleft.png
+│       │       │   │   ├── jumpleft.png.import
+│       │       │   │   ├── jumpright.png
+│       │       │   │   ├── jumpright.png.import
+│       │       │   │   ├── line.png
+│       │       │   │   ├── line.png.import
+│       │       │   │   ├── playerholdingright.png
+│       │       │   │   ├── playerholdingright.png.import
+│       │       │   │   ├── playerleft.png
+│       │       │   │   ├── playerleft.png.import
+│       │       │   │   ├── playerright.png
+│       │       │   │   └── playerright.png.import
+│       │       │   ├── shadow
+│       │       │   │   ├── jumpleftshadow.png
+│       │       │   │   ├── jumpleftshadow.png.import
+│       │       │   │   ├── jumprightshadow.png
+│       │       │   │   ├── jumprightshadow.png.import
+│       │       │   │   ├── shadowholdingright.png
+│       │       │   │   ├── shadowholdingright.png.import
+│       │       │   │   ├── shadowleft.png
+│       │       │   │   ├── shadowleft.png.import
+│       │       │   │   ├── shadowright.png
+│       │       │   │   └── shadowright.png.import
+│       │       │   └── theme.mnmstheme
+│       │       └── Cloudscape
+│       │           ├── background.png
+│       │           ├── background.png.import
+│       │           ├── characters
+│       │           │   ├── deathleft.png
+│       │           │   ├── deathleft.png.import
+│       │           │   ├── deathright.png
+│       │           │   ├── deathright.png.import
+│       │           │   ├── line.png
+│       │           │   ├── line.png.import
+│       │           │   ├── player.png
+│       │           │   ├── player.png.import
+│       │           │   ├── shadow.png
+│       │           │   ├── shadow.png.import
+│       │           │   ├── shadowdeathleft.png
+│       │           │   ├── shadowdeathleft.png.import
+│       │           │   ├── shadowdeathright.png
+│       │           │   └── shadowdeathright.png.import
+│       │           ├── License
+│       │           ├── theme.mnmstheme
+│       │           └── tiles
+│       │               ├── boxcrush.png
+│       │               ├── boxcrush.png.import
+│       │               ├── scenery.png
+│       │               ├── scenery.png.import
+│       │               ├── snow.png
+│       │               ├── snow.png.import
+│       │               ├── swap.png
+│       │               ├── swap.png.import
+│       │               ├── tiles.png
+│       │               └── tiles.png.import
+│       ├── docs
+│       │   ├── Controls.md
+│       │   ├── ScriptAPI.md
+│       │   └── ThemeDescription.md
+│       ├── icon.png
+│       ├── icon.png.import
+│       ├── icons
+│       │   ├── 16x16
+│       │   │   ├── meandmyshadow.png
+│       │   │   └── meandmyshadow.png.import
+│       │   ├── 32x32
+│       │   │   ├── meandmyshadow.png
+│       │   │   └── meandmyshadow.png.import
+│       │   ├── 48x48
+│       │   │   ├── meandmyshadow.png
+│       │   │   └── meandmyshadow.png.import
+│       │   ├── 64x64
+│       │   │   ├── meandmyshadow.png
+│       │   │   └── meandmyshadow.png.import
+│       │   └── windows-icon
+│       │       ├── meandmyshadow.ico
+│       │       ├── meandmyshadow.xcf
+│       │       ├── res.rc
+│       │       ├── res.rc.in
+│       │       └── resource.h
+│       ├── meandmyshadow.desktop
+│       ├── pkg2appimage.yml
+│       ├── README.md
+│       ├── src
+│       │   ├── AchievementList.cpp
+│       │   ├── AchievementList.h
+│       │   ├── Addons.cpp
+│       │   ├── Addons.h
+│       │   ├── Block.cpp
+│       │   ├── Block.h
+│       │   ├── CachedTexture.h
+│       │   ├── CommandManager.cpp
+│       │   ├── CommandManager.h
+│       │   ├── Commands.cpp
+│       │   ├── Commands.h
+│       │   ├── config.h.in
+│       │   ├── CreditsMenu.cpp
+│       │   ├── CreditsMenu.h
+│       │   ├── Cursors.h
+│       │   ├── EasterEggScreen.cpp
+│       │   ├── EasterEggScreen.h
+│       │   ├── FakeLuaLexer.cpp
+│       │   ├── FakeLuaLexer.h
+│       │   ├── FileDownload.cpp
+│       │   ├── FileDownload.h
+│       │   ├── FileManager.cpp
+│       │   ├── FileManager.h
+│       │   ├── FontManager.cpp
+│       │   ├── FontManager.h
+│       │   ├── Functions.cpp
+│       │   ├── Functions.h
+│       │   ├── Game.cpp
+│       │   ├── Game.h
+│       │   ├── GameObjects.cpp
+│       │   ├── GameObjects.h
+│       │   ├── GameState.h
+│       │   ├── Globals.cpp
+│       │   ├── Globals.h
+│       │   ├── GUIListBox.cpp
+│       │   ├── GUIListBox.h
+│       │   ├── GUIMultilineLabel.cpp
+│       │   ├── GUIMultilineLabel.h
+│       │   ├── GUIObject.cpp
+│       │   ├── GUIObject.h
+│       │   ├── GUIOverlay.cpp
+│       │   ├── GUIOverlay.h
+│       │   ├── GUIScrollBar.cpp
+│       │   ├── GUIScrollBar.h
+│       │   ├── GUISlider.cpp
+│       │   ├── GUISlider.h
+│       │   ├── GUISpinBox.cpp
+│       │   ├── GUISpinBox.h
+│       │   ├── GUITextArea.cpp
+│       │   ├── GUITextArea.h
+│       │   ├── GUIWindow.cpp
+│       │   ├── GUIWindow.h
+│       │   ├── HelpManager.cpp
+│       │   ├── HelpManager.h
+│       │   ├── HyphenationManager.cpp
+│       │   ├── HyphenationManager.h
+│       │   ├── HyphenationRule.cpp
+│       │   ├── HyphenationRule.h
+│       │   ├── HyphenationTree.cpp
+│       │   ├── HyphenationTree.h
+│       │   ├── Hyphenator.cpp
+│       │   ├── Hyphenator.h
+│       │   ├── ImageManager.cpp
+│       │   ├── ImageManager.h
+│       │   ├── InputManager.cpp
+│       │   ├── InputManager.h
+│       │   ├── ITreeSerializer.h
+│       │   ├── ITreeStorage.h
+│       │   ├── LevelEditor.cpp
+│       │   ├── LevelEditor.h
+│       │   ├── LevelEditSelect.cpp
+│       │   ├── LevelEditSelect.h
+│       │   ├── LevelInfoRender.cpp
+│       │   ├── LevelInfoRender.h
+│       │   ├── LevelPack.cpp
+│       │   ├── LevelPack.h
+│       │   ├── LevelPackManager.cpp
+│       │   ├── LevelPackManager.h
+│       │   ├── LevelPackPOTExporter.cpp
+│       │   ├── LevelPackPOTExporter.h
+│       │   ├── LevelPlaySelect.cpp
+│       │   ├── LevelPlaySelect.h
+│       │   ├── LevelSelect.cpp
+│       │   ├── LevelSelect.h
+│       │   ├── libs
+│       │   │   ├── dirent
+│       │   │   │   └── dirent.h
+│       │   │   ├── findlocale
+│       │   │   │   ├── findlocale.cpp
+│       │   │   │   └── findlocale.h
+│       │   │   ├── SDL2_ttf
+│       │   │   │   ├── CHANGES.txt
+│       │   │   │   ├── COPYING.txt
+│       │   │   │   ├── README.txt
+│       │   │   │   ├── SDL_ttf_fontfallback.c
+│       │   │   │   └── SDL_ttf_fontfallback.h
+│       │   │   ├── tinyformat
+│       │   │   │   ├── tinyformat.cpp
+│       │   │   │   └── tinyformat.h
+│       │   │   └── tinygettext
+│       │   │       ├── dictionary.cpp
+│       │   │       ├── dictionary.hpp
+│       │   │       ├── dictionary_manager.cpp
+│       │   │       ├── dictionary_manager.hpp
+│       │   │       ├── expression_parser.cpp
+│       │   │       ├── expression_parser.hpp
+│       │   │       ├── file_system.hpp
+│       │   │       ├── iconv.cpp
+│       │   │       ├── iconv.hpp
+│       │   │       ├── language.cpp
+│       │   │       ├── language.hpp
+│       │   │       ├── log.cpp
+│       │   │       ├── log.hpp
+│       │   │       ├── log_stream.hpp
+│       │   │       ├── plural_forms.cpp
+│       │   │       ├── plural_forms.hpp
+│       │   │       ├── po_parser.cpp
+│       │   │       ├── po_parser.hpp
+│       │   │       ├── tinygettext.cpp
+│       │   │       ├── tinygettext.hpp
+│       │   │       ├── unix_file_system.cpp
+│       │   │       └── unix_file_system.hpp
+│       │   ├── mac
+│       │   │   ├── meandmyshadow
+│       │   │   │   ├── archive
+│       │   │   │   │   ├── archive.h
+│       │   │   │   │   ├── archive_crc32.h
+│       │   │   │   │   ├── archive_endian.h
+│       │   │   │   │   ├── archive_entry.h
+│       │   │   │   │   ├── archive_entry_private.h
+│       │   │   │   │   ├── archive_hash.h
+│       │   │   │   │   ├── archive_platform.h
+│       │   │   │   │   ├── archive_private.h
+│       │   │   │   │   ├── archive_read_disk_private.h
+│       │   │   │   │   ├── archive_read_private.h
+│       │   │   │   │   ├── archive_string.h
+│       │   │   │   │   ├── archive_windows.h
+│       │   │   │   │   ├── archive_write_disk_private.h
+│       │   │   │   │   ├── archive_write_private.h
+│       │   │   │   │   ├── config_freebsd.h
+│       │   │   │   │   └── filter_fork.h
+│       │   │   │   ├── en.lproj
+│       │   │   │   │   └── InfoPlist.strings
+│       │   │   │   ├── meandmyshadow-Info.plist
+│       │   │   │   ├── meandmyshadow-Prefix.pch
+│       │   │   │   ├── osx_helpers.mm
+│       │   │   │   ├── SDLMain.h
+│       │   │   │   └── SDLMain.m
+│       │   │   └── meandmyshadow.xcodeproj
+│       │   │       ├── project.pbxproj
+│       │   │       └── project.xcworkspace
+│       │   │           └── contents.xcworkspacedata
+│       │   ├── Main.cpp
+│       │   ├── MD5.cpp
+│       │   ├── MD5.h
+│       │   ├── MusicManager.cpp
+│       │   ├── MusicManager.h
+│       │   ├── OptionsMenu.cpp
+│       │   ├── OptionsMenu.h
+│       │   ├── Player.cpp
+│       │   ├── Player.h
+│       │   ├── POASerializer.cpp
+│       │   ├── POASerializer.h
+│       │   ├── RecordPlayback.cpp
+│       │   ├── RecordPlayback.h
+│       │   ├── Render.cpp
+│       │   ├── Render.h
+│       │   ├── Scenery.cpp
+│       │   ├── Scenery.h
+│       │   ├── SceneryLayer.cpp
+│       │   ├── SceneryLayer.h
+│       │   ├── ScriptAPI.cpp
+│       │   ├── ScriptAPI.h
+│       │   ├── ScriptDelayExecution.cpp
+│       │   ├── ScriptDelayExecution.h
+│       │   ├── ScriptExecutor.cpp
+│       │   ├── ScriptExecutor.h
+│       │   ├── ScriptUserData.cpp
+│       │   ├── ScriptUserData.h
+│       │   ├── Settings.cpp
+│       │   ├── Settings.h
+│       │   ├── Shadow.cpp
+│       │   ├── Shadow.h
+│       │   ├── SoundManager.cpp
+│       │   ├── SoundManager.h
+│       │   ├── StatisticsManager.cpp
+│       │   ├── StatisticsManager.h
+│       │   ├── StatisticsScreen.cpp
+│       │   ├── StatisticsScreen.h
+│       │   ├── ThemeManager.cpp
+│       │   ├── ThemeManager.h
+│       │   ├── Timer.cpp
+│       │   ├── Timer.h
+│       │   ├── TitleMenu.cpp
+│       │   ├── TitleMenu.h
+│       │   ├── TreeStorageNode.cpp
+│       │   ├── TreeStorageNode.h
+│       │   ├── UTF8Functions.cpp
+│       │   ├── UTF8Functions.h
+│       │   ├── WordWrapper.cpp
+│       │   └── WordWrapper.h
+│       └── tools
+│           └── messages.pot.sh
+├── mnms.gdextension
+├── mnms.gdextension.uid
+├── mnms_converted
+│   ├── levels
+│   │   └── classic
+│   │       ├── 0_babysteps.tres
+│   │       ├── 1_shadowblocks.tres
+│   │       ├── 2_littlehelp.tres
+│   │       ├── 3_firstspikes.tres
+│   │       ├── 4_somespikes.tres
+│   │       ├── 5_tricky.tres
+│   │       ├── 6_jumper.tres
+│   │       ├── 7_freefall.tres
+│   │       ├── 8_control.tres
+│   │       ├── 9_tower.tres
+│   │       ├── 10_jumping.tres
+│   │       ├── 11_updown.tres
+│   │       ├── 12_spiky.tres
+│   │       ├── 13_headache.tres
+│   │       ├── 14_freefall2.tres
+│   │       ├── 15_timing.tres
+│   │       ├── 16_carry.tres
+│   │       ├── 17_road.tres
+│   │       ├── 18_lab.tres
+│   │       ├── 19_leftright.tres
+│   │       ├── 20_shadow.tres
+│   │       ├── 21_here.tres
+│   │       ├── 22_end.tres
+│   │       └── 23_credits.tres
+│   ├── packs
+│   │   └── classic_pack.tres
+│   └── themes
+│       ├── classic.tres
+│       └── cloudscape.tres
+├── mnms_source_data
+│   ├── Credits.txt
+│   ├── font
+│   │   ├── Blokletters-Viltstift.ttf
+│   │   ├── Blokletters-Viltstift.ttf.import
+│   │   ├── DejaVuSansCondensed-Oblique.ttf
+│   │   ├── DejaVuSansCondensed-Oblique.ttf.import
+│   │   ├── DejaVuSansCondensed.ttf
+│   │   ├── DejaVuSansCondensed.ttf.import
+│   │   ├── DejaVuSansMono.ttf
+│   │   ├── DejaVuSansMono.ttf.import
+│   │   ├── DroidSansFallback.ttf
+│   │   ├── DroidSansFallback.ttf.import
+│   │   ├── fonts.list
+│   │   ├── knewave.ttf
+│   │   └── knewave.ttf.import
+│   ├── gfx
+│   │   ├── achievements
+│   │   │   ├── acrobat.png
+│   │   │   ├── acrobat.png.import
+│   │   │   ├── addicted.png
+│   │   │   ├── addicted.png.import
+│   │   │   ├── box_delivery_company.png
+│   │   │   ├── box_delivery_company.png.import
+│   │   │   ├── broken_box.png
+│   │   │   ├── broken_box.png.import
+│   │   │   ├── broken_box2.png
+│   │   │   ├── broken_box2.png.import
+│   │   │   ├── broken_fragile.png
+│   │   │   ├── broken_fragile.png.import
+│   │   │   ├── carrier.png
+│   │   │   ├── carrier.png.import
+│   │   │   ├── cheat.png
+│   │   │   ├── cheat.png.import
+│   │   │   ├── collect1k.png
+│   │   │   ├── collect1k.png.import
+│   │   │   ├── complete_levelpack.png
+│   │   │   ├── complete_levelpack.png.import
+│   │   │   ├── constructor.png
+│   │   │   ├── constructor.png.import
+│   │   │   ├── constructor2.png
+│   │   │   ├── constructor2.png.import
+│   │   │   ├── create1.png
+│   │   │   ├── create1.png.import
+│   │   │   ├── create10.png
+│   │   │   ├── create10.png.import
+│   │   │   ├── die5in5.png
+│   │   │   ├── die5in5.png.import
+│   │   │   ├── die10in5.png
+│   │   │   ├── die10in5.png.import
+│   │   │   ├── die50.png
+│   │   │   ├── die50.png.import
+│   │   │   ├── die1000.png
+│   │   │   ├── die1000.png.import
+│   │   │   ├── doublekill.png
+│   │   │   ├── doublekill.png.import
+│   │   │   ├── duel.png
+│   │   │   ├── duel.png.import
+│   │   │   ├── experienced.png
+│   │   │   ├── experienced.png.import
+│   │   │   ├── expert.png
+│   │   │   ├── expert.png.import
+│   │   │   ├── forget.png
+│   │   │   ├── forget.png.import
+│   │   │   ├── helloworld.png
+│   │   │   ├── helloworld.png.import
+│   │   │   ├── jit.png
+│   │   │   ├── jit.png.import
+│   │   │   ├── jump1k.png
+│   │   │   ├── jump1k.png.import
+│   │   │   ├── jump100.png
+│   │   │   ├── jump100.png.import
+│   │   │   ├── load1k.png
+│   │   │   ├── load1k.png.import
+│   │   │   ├── loadanddie.png
+│   │   │   ├── loadanddie.png.import
+│   │   │   ├── loadanddie100.png
+│   │   │   ├── loadanddie100.png.import
+│   │   │   ├── loyalfan.png
+│   │   │   ├── loyalfan.png.import
+│   │   │   ├── panicload.png
+│   │   │   ├── panicload.png.import
+│   │   │   ├── panicsave.png
+│   │   │   ├── panicsave.png.import
+│   │   │   ├── programmer.png
+│   │   │   ├── programmer.png.import
+│   │   │   ├── quickswap.png
+│   │   │   ├── quickswap.png.import
+│   │   │   ├── record100.png
+│   │   │   ├── record100.png.import
+│   │   │   ├── save1k.png
+│   │   │   ├── save1k.png.import
+│   │   │   ├── squash1.png
+│   │   │   ├── squash1.png.import
+│   │   │   ├── squash50.png
+│   │   │   ├── squash50.png.import
+│   │   │   ├── switch1k.png
+│   │   │   ├── switch1k.png.import
+│   │   │   ├── travel1k.png
+│   │   │   ├── travel1k.png.import
+│   │   │   ├── travel10k.png
+│   │   │   ├── travel10k.png.import
+│   │   │   ├── travel42k.png
+│   │   │   ├── travel42k.png.import
+│   │   │   ├── travel100.png
+│   │   │   ├── travel100.png.import
+│   │   │   ├── tutorial.png
+│   │   │   ├── tutorial.png.import
+│   │   │   ├── tutorialgold.png
+│   │   │   ├── tutorialgold.png.import
+│   │   │   ├── under_par.png
+│   │   │   ├── under_par.png.import
+│   │   │   ├── UNUSED_hook.png
+│   │   │   ├── UNUSED_hook.png.import
+│   │   │   ├── UNUSED_programmer.png
+│   │   │   ├── UNUSED_programmer.png.import
+│   │   │   ├── UNUSED_switch1k.png
+│   │   │   ├── UNUSED_switch1k.png.import
+│   │   │   ├── withoutsave.png
+│   │   │   └── withoutsave.png.import
+│   │   ├── actions.png
+│   │   ├── actions.png.import
+│   │   ├── addon0.png
+│   │   ├── addon0.png.import
+│   │   ├── addon1.png
+│   │   ├── addon1.png.import
+│   │   ├── addon2.png
+│   │   ├── addon2.png.import
+│   │   ├── addon3.png
+│   │   ├── addon3.png.import
+│   │   ├── dropshadow.png
+│   │   ├── dropshadow.png.import
+│   │   ├── emotions.png
+│   │   ├── emotions.png.import
+│   │   ├── gui.png
+│   │   ├── gui.png.import
+│   │   ├── leveltypes.png
+│   │   ├── leveltypes.png.import
+│   │   ├── medals.png
+│   │   ├── medals.png.import
+│   │   ├── menu
+│   │   │   ├── clear-progress.png
+│   │   │   ├── clear-progress.png.import
+│   │   │   ├── credits.png
+│   │   │   ├── credits.png.import
+│   │   │   ├── moving.png
+│   │   │   ├── moving.png.import
+│   │   │   ├── questionmark.png
+│   │   │   ├── questionmark.png.import
+│   │   │   ├── selection.png
+│   │   │   ├── selection.png.import
+│   │   │   ├── statistics.png
+│   │   │   ├── statistics.png.import
+│   │   │   ├── title.png
+│   │   │   ├── title.png.import
+│   │   │   ├── toolbar.png
+│   │   │   └── toolbar.png.import
+│   │   ├── playbutton.png
+│   │   ├── playbutton.png.import
+│   │   ├── recordings.png
+│   │   ├── recordings.png.import
+│   │   ├── screenshot.png
+│   │   ├── screenshot.png.import
+│   │   ├── time.png
+│   │   └── time.png.import
+│   ├── hyphenate
+│   │   ├── de
+│   │   ├── de_DE
+│   │   ├── en
+│   │   ├── es
+│   │   └── fr
+│   ├── levelpacks
+│   │   └── classic
+│   │       ├── BabySteps.map
+│   │       ├── Carry.map
+│   │       ├── Control.map
+│   │       ├── Credits.map
+│   │       ├── End.map
+│   │       ├── FirstSpikes.map
+│   │       ├── FreeFall.map
+│   │       ├── FreeFall2.map
+│   │       ├── Headache.map
+│   │       ├── Here.map
+│   │       ├── Jumper.map
+│   │       ├── Jumping.map
+│   │       ├── Lab.map
+│   │       ├── LeftRight.map
+│   │       ├── levels.lst
+│   │       ├── LittleHelp.map
+│   │       ├── locale
+│   │       │   ├── ar.po
+│   │       │   ├── de.po
+│   │       │   ├── el.po
+│   │       │   ├── es.po
+│   │       │   ├── fi.po
+│   │       │   ├── fr.po
+│   │       │   ├── gd.po
+│   │       │   ├── hu.po
+│   │       │   ├── it.po
+│   │       │   ├── messages.pot
+│   │       │   ├── nb.po
+│   │       │   ├── nl.po
+│   │       │   ├── pl.po
+│   │       │   ├── pt.po
+│   │       │   ├── ru.po
+│   │       │   ├── th.po
+│   │       │   ├── uk.po
+│   │       │   ├── zh_CN.po
+│   │       │   └── zh_Hant.po
+│   │       ├── Road.map
+│   │       ├── Shadow.map
+│   │       ├── ShadowBlocks.map
+│   │       ├── SomeSpikes.map
+│   │       ├── Spiky.map
+│   │       ├── Timing.map
+│   │       ├── Tower.map
+│   │       ├── Tricky.map
+│   │       └── UpDown.map
+│   ├── locale
+│   │   ├── ar.po
+│   │   ├── de.po
+│   │   ├── el.po
+│   │   ├── es.po
+│   │   ├── fi.po
+│   │   ├── fr.po
+│   │   ├── gd.po
+│   │   ├── hu.po
+│   │   ├── it.po
+│   │   ├── messages.pot
+│   │   ├── nb.po
+│   │   ├── nl.po
+│   │   ├── pl.po
+│   │   ├── pt.po
+│   │   ├── ru.po
+│   │   ├── th.po
+│   │   ├── uk.po
+│   │   ├── zh_CN.po
+│   │   ├── zh_Hant.po
+│   │   └── zh_TW.po
+│   ├── music
+│   │   ├── default.list
+│   │   ├── haunted.music
+│   │   ├── mams-masters_theatre-full_final.ogg
+│   │   ├── mams-masters_theatre-full_final.ogg.import
+│   │   ├── mams-menu_initial.ogg
+│   │   ├── mams-menu_initial.ogg.import
+│   │   ├── mams-menu_loop.ogg
+│   │   ├── mams-menu_loop.ogg.import
+│   │   ├── mams-neverending_stair-full_final.ogg
+│   │   ├── mams-neverending_stair-full_final.ogg.import
+│   │   ├── mams-the_haunted_mansion-full_final.ogg
+│   │   ├── mams-the_haunted_mansion-full_final.ogg.import
+│   │   ├── menu.music
+│   │   ├── neverending.music
+│   │   └── theatre.music
+│   ├── sfx
+│   │   ├── achievement.ogg
+│   │   ├── achievement.ogg.import
+│   │   ├── checkpoint.wav
+│   │   ├── checkpoint.wav.import
+│   │   ├── collect.wav
+│   │   ├── collect.wav.import
+│   │   ├── error.wav
+│   │   ├── error.wav.import
+│   │   ├── hit.wav
+│   │   ├── hit.wav.import
+│   │   ├── jump.wav
+│   │   ├── jump.wav.import
+│   │   ├── swap.wav
+│   │   ├── swap.wav.import
+│   │   ├── toggle.ogg
+│   │   └── toggle.ogg.import
+│   └── themes
+│       ├── classic
+│       │   ├── background.png
+│       │   ├── background.png.import
+│       │   ├── blocks
+│       │   │   ├── block.png
+│       │   │   ├── block.png.import
+│       │   │   ├── block2.png
+│       │   │   ├── block2.png.import
+│       │   │   ├── block3.png
+│       │   │   ├── block3.png.import
+│       │   │   ├── button.png
+│       │   │   ├── button.png.import
+│       │   │   ├── checkpoint.png
+│       │   │   ├── checkpoint.png.import
+│       │   │   ├── exit.png
+│       │   │   ├── exit.png.import
+│       │   │   ├── fragile.png
+│       │   │   ├── fragile.png.import
+│       │   │   ├── fragileshadow.png
+│       │   │   ├── fragileshadow.png.import
+│       │   │   ├── moving_block.png
+│       │   │   ├── moving_block.png.import
+│       │   │   ├── moving_block_2.png
+│       │   │   ├── moving_block_2.png.import
+│       │   │   ├── moving_shadowblock.png
+│       │   │   ├── moving_shadowblock.png.import
+│       │   │   ├── moving_shadowblock_2.png
+│       │   │   ├── moving_shadowblock_2.png.import
+│       │   │   ├── moving_shadowspikes.png
+│       │   │   ├── moving_shadowspikes.png.import
+│       │   │   ├── moving_spikes.png
+│       │   │   ├── moving_spikes.png.import
+│       │   │   ├── notification.png
+│       │   │   ├── notification.png.import
+│       │   │   ├── playerstart.png
+│       │   │   ├── playerstart.png.import
+│       │   │   ├── portal.png
+│       │   │   ├── portal.png.import
+│       │   │   ├── shadowblock.png
+│       │   │   ├── shadowblock.png.import
+│       │   │   ├── shadowspikes.png
+│       │   │   ├── shadowspikes.png.import
+│       │   │   ├── shadowstart.png
+│       │   │   ├── shadowstart.png.import
+│       │   │   ├── spikes.png
+│       │   │   ├── spikes.png.import
+│       │   │   ├── swap.png
+│       │   │   ├── swap.png.import
+│       │   │   ├── switch.png
+│       │   │   └── switch.png.import
+│       │   ├── Credits.txt
+│       │   ├── player
+│       │   │   ├── jumpleft.png
+│       │   │   ├── jumpleft.png.import
+│       │   │   ├── jumpright.png
+│       │   │   ├── jumpright.png.import
+│       │   │   ├── line.png
+│       │   │   ├── line.png.import
+│       │   │   ├── playerholdingright.png
+│       │   │   ├── playerholdingright.png.import
+│       │   │   ├── playerleft.png
+│       │   │   ├── playerleft.png.import
+│       │   │   ├── playerright.png
+│       │   │   └── playerright.png.import
+│       │   ├── shadow
+│       │   │   ├── jumpleftshadow.png
+│       │   │   ├── jumpleftshadow.png.import
+│       │   │   ├── jumprightshadow.png
+│       │   │   ├── jumprightshadow.png.import
+│       │   │   ├── shadowholdingright.png
+│       │   │   ├── shadowholdingright.png.import
+│       │   │   ├── shadowleft.png
+│       │   │   ├── shadowleft.png.import
+│       │   │   ├── shadowright.png
+│       │   │   └── shadowright.png.import
+│       │   └── theme.mnmstheme
+│       └── Cloudscape
+│           ├── background.png
+│           ├── background.png.import
+│           ├── characters
+│           │   ├── deathleft.png
+│           │   ├── deathleft.png.import
+│           │   ├── deathright.png
+│           │   ├── deathright.png.import
+│           │   ├── line.png
+│           │   ├── line.png.import
+│           │   ├── player.png
+│           │   ├── player.png.import
+│           │   ├── shadow.png
+│           │   ├── shadow.png.import
+│           │   ├── shadowdeathleft.png
+│           │   ├── shadowdeathleft.png.import
+│           │   ├── shadowdeathright.png
+│           │   └── shadowdeathright.png.import
+│           ├── License
+│           ├── theme.mnmstheme
+│           └── tiles
+│               ├── boxcrush.png
+│               ├── boxcrush.png.import
+│               ├── scenery.png
+│               ├── scenery.png.import
+│               ├── snow.png
+│               ├── snow.png.import
+│               ├── swap.png
+│               ├── swap.png.import
+│               ├── tiles.png
+│               └── tiles.png.import
+├── project.godot
+├── SConstruct
+├── src
+│   ├── mnms_block_system.cpp
+│   ├── mnms_block_system.h
+│   ├── mnms_block_system.windows.editor.x86_64.obj
+│   ├── mnms_block_system.windows.template_debug.x86_64.obj
+│   ├── mnms_game_director.cpp
+│   ├── mnms_game_director.h
+│   ├── mnms_game_director.windows.editor.x86_64.obj
+│   ├── mnms_game_director.windows.template_debug.x86_64.obj
+│   ├── mnms_importer.cpp
+│   ├── mnms_importer.h
+│   ├── mnms_importer.windows.editor.x86_64.obj
+│   ├── mnms_importer.windows.template_debug.x86_64.obj
+│   ├── mnms_level_resource.cpp
+│   ├── mnms_level_resource.h
+│   ├── mnms_level_resource.windows.editor.x86_64.obj
+│   ├── mnms_level_resource.windows.template_debug.x86_64.obj
+│   ├── mnms_level_runner.cpp
+│   ├── mnms_level_runner.h
+│   ├── mnms_level_runner.windows.editor.x86_64.obj
+│   ├── mnms_level_runner.windows.template_debug.x86_64.obj
+│   ├── mnms_pack_resource.cpp
+│   ├── mnms_pack_resource.h
+│   ├── mnms_pack_resource.windows.editor.x86_64.obj
+│   ├── mnms_pack_resource.windows.template_debug.x86_64.obj
+│   ├── mnms_player.cpp
+│   ├── mnms_player.h
+│   ├── mnms_player.windows.editor.x86_64.obj
+│   ├── mnms_player.windows.template_debug.x86_64.obj
+│   ├── mnms_player_shadow_system.cpp
+│   ├── mnms_player_shadow_system.h
+│   ├── mnms_player_shadow_system.windows.editor.x86_64.obj
+│   ├── mnms_player_shadow_system.windows.template_debug.x86_64.obj
+│   ├── mnms_replay_system.cpp
+│   ├── mnms_replay_system.h
+│   ├── mnms_replay_system.windows.editor.x86_64.obj
+│   ├── mnms_replay_system.windows.template_debug.x86_64.obj
+│   ├── mnms_shadow.cpp
+│   ├── mnms_shadow.h
+│   ├── mnms_shadow.windows.editor.x86_64.obj
+│   ├── mnms_shadow.windows.template_debug.x86_64.obj
+│   ├── mnms_theme_resource.cpp
+│   ├── mnms_theme_resource.h
+│   ├── mnms_theme_resource.windows.editor.x86_64.obj
+│   ├── mnms_theme_resource.windows.template_debug.x86_64.obj
+│   ├── mnms_tile_resource.cpp
+│   ├── mnms_tile_resource.h
+│   ├── mnms_tile_resource.windows.editor.x86_64.obj
+│   ├── mnms_tile_resource.windows.template_debug.x86_64.obj
+│   ├── register_types.cpp
+│   ├── register_types.h
+│   ├── register_types.windows.editor.x86_64.obj
+│   └── register_types.windows.template_debug.x86_64.obj
+└── tools
+    ├── rebuild_mnms_converted.gd
+    ├── rebuild_mnms_converted.gd.uid
+    └── rebuild_mnms_converted.tscn

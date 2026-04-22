@@ -1,0 +1,32 @@
+app: MeAndMyShadow
+
+ingredients:
+  dist: xenial
+  sources: 
+    - deb http://archive.ubuntu.com/ubuntu/ xenial main universe
+  packages:
+    - libsdl2-2.0-0
+    - libsdl2-image-2.0-0
+    - libfreetype6
+    - libogg0
+    - libvorbis0a
+    - libvorbisfile3
+    - libsdl2-mixer-2.0-0
+    - libarchive13
+    - liblua5.3-0
+
+script:
+  - cp -R $TRAVIS_BUILD_DIR/data usr/bin/
+  - cp -R $TRAVIS_BUILD_DIR/docs ./
+  - cp -R $TRAVIS_BUILD_DIR/icons ./
+  - cp $TRAVIS_BUILD_DIR/AUTHORS ./
+  - cp $TRAVIS_BUILD_DIR/ChangeLog ./
+  - cp $TRAVIS_BUILD_DIR/COPYING ./
+  - cp $TRAVIS_BUILD_DIR/README.md ./
+  - cp $TRAVIS_BUILD_DIR/nightly-build-version.txt ./
+  - cp $TRAVIS_BUILD_DIR/meandmyshadow.desktop ./
+  - cp $TRAVIS_BUILD_DIR/icon.png ./meandmyshadow.png
+  - cp $TRAVIS_BUILD_DIR/build/meandmyshadow usr/bin/
+  - cd usr/bin/ && ln -s ../../AUTHORS AUTHORS && cd ../../
+  - cd usr/bin/ && ln -s ../../docs docs && cd ../../
+  - cd usr/bin/ && ln -s ../../icons icons && cd ../../

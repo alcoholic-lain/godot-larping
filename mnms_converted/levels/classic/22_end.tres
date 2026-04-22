@@ -1,0 +1,738 @@
+[gd_resource type="MnmsLevelResource" format=3]
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_rlybi"]
+block_type = "Block"
+position = Vector2i(50, 100)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"50\",\"100\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_5xjg7"]
+block_type = "Block"
+position = Vector2i(50, 150)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"50\",\"150\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_0cbe1"]
+block_type = "Block"
+position = Vector2i(50, 200)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"50\",\"200\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_mvyvo"]
+block_type = "Block"
+position = Vector2i(50, 300)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"50\",\"300\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_k1jrw"]
+block_type = "Block"
+position = Vector2i(50, 250)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"50\",\"250\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_tiiqg"]
+block_type = "Block"
+position = Vector2i(50, 350)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"50\",\"350\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_41cw8"]
+block_type = "Block"
+position = Vector2i(50, 400)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"50\",\"400\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_e5i2o"]
+block_type = "Block"
+position = Vector2i(100, 400)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"100\",\"400\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_scbwa"]
+block_type = "Block"
+position = Vector2i(150, 400)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"150\",\"400\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_mud03"]
+block_type = "Block"
+position = Vector2i(100, 250)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"100\",\"250\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_nosl6"]
+block_type = "Block"
+position = Vector2i(150, 250)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"150\",\"250\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_66ee3"]
+block_type = "Block"
+position = Vector2i(200, 250)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"200\",\"250\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_pkxwl"]
+block_type = "Block"
+position = Vector2i(200, 400)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"200\",\"400\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_2xcso"]
+block_type = "Block"
+position = Vector2i(100, 100)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"100\",\"100\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_evi20"]
+block_type = "Block"
+position = Vector2i(150, 100)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"150\",\"100\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_0nike"]
+block_type = "Block"
+position = Vector2i(200, 100)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"200\",\"100\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_0cyun"]
+block_type = "Block"
+position = Vector2i(300, 350)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"300\",\"350\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_ahck5"]
+block_type = "Block"
+position = Vector2i(300, 400)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"300\",\"400\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_dwa5h"]
+block_type = "Block"
+position = Vector2i(300, 300)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"300\",\"300\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_y2nln"]
+block_type = "Block"
+position = Vector2i(300, 250)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"300\",\"250\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_o0s5v"]
+block_type = "Block"
+position = Vector2i(300, 150)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"300\",\"150\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_7xyg2"]
+block_type = "Block"
+position = Vector2i(300, 200)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"300\",\"200\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_6n2c7"]
+block_type = "Block"
+position = Vector2i(300, 100)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"300\",\"100\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_wd6vh"]
+block_type = "Block"
+position = Vector2i(350, 150)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"350\",\"150\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_mdc8l"]
+block_type = "Block"
+position = Vector2i(400, 200)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"400\",\"200\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_rjcjr"]
+block_type = "Block"
+position = Vector2i(450, 250)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"450\",\"250\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_837n0"]
+block_type = "Block"
+position = Vector2i(500, 300)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"500\",\"300\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_nyf2m"]
+block_type = "Block"
+position = Vector2i(550, 350)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"550\",\"350\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_cxipy"]
+block_type = "Block"
+position = Vector2i(600, 400)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"600\",\"400\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_tc6dh"]
+block_type = "Block"
+position = Vector2i(600, 350)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"600\",\"350\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_6re3q"]
+block_type = "Block"
+position = Vector2i(600, 300)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"600\",\"300\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_0f00j"]
+block_type = "Block"
+position = Vector2i(600, 250)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"600\",\"250\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_5x1am"]
+block_type = "Block"
+position = Vector2i(600, 200)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"600\",\"200\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_ur5vw"]
+block_type = "Block"
+position = Vector2i(600, 150)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"600\",\"150\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_at3vo"]
+block_type = "Block"
+position = Vector2i(600, 100)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"600\",\"100\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_yx84y"]
+block_type = "Block"
+position = Vector2i(700, 100)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"700\",\"100\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_fwmtm"]
+block_type = "Block"
+position = Vector2i(700, 150)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"700\",\"150\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_rsjvp"]
+block_type = "Block"
+position = Vector2i(700, 200)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"700\",\"200\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_hofoh"]
+block_type = "Block"
+position = Vector2i(700, 250)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"700\",\"250\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_rcehk"]
+block_type = "Block"
+position = Vector2i(700, 300)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"700\",\"300\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_hjah4"]
+block_type = "Block"
+position = Vector2i(700, 350)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"700\",\"350\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_83vpr"]
+block_type = "Block"
+position = Vector2i(700, 400)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"700\",\"400\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_xlq3m"]
+block_type = "Block"
+position = Vector2i(750, 400)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"750\",\"400\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_tqjcq"]
+block_type = "Block"
+position = Vector2i(800, 400)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"800\",\"400\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_slsw8"]
+block_type = "Block"
+position = Vector2i(850, 350)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"850\",\"350\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_bmw1c"]
+block_type = "Block"
+position = Vector2i(900, 300)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"900\",\"300\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_kb5mo"]
+block_type = "Block"
+position = Vector2i(900, 250)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"900\",\"250\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_bdqra"]
+block_type = "Block"
+position = Vector2i(900, 200)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"900\",\"200\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_rhtaw"]
+block_type = "Block"
+position = Vector2i(750, 100)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"750\",\"100\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_vecjo"]
+block_type = "Block"
+position = Vector2i(800, 100)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"800\",\"100\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_3j5fa"]
+block_type = "Block"
+position = Vector2i(850, 150)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"850\",\"150\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_4b3i4"]
+block_type = "PlayerStart"
+position = Vector2i(150, 200)
+properties = {
+"source_line": "\"tile\"(\"PlayerStart\",\"150\",\"200\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_wd28p"]
+block_type = "ShadowStart"
+position = Vector2i(100, 200)
+properties = {
+"source_line": "\"tile\"(\"ShadowStart\",\"100\",\"200\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_n5slf"]
+block_type = "ShadowBlock"
+position = Vector2i(500, 150)
+properties = {
+"source_line": "\"tile\"(\"ShadowBlock\",\"500\",\"150\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_tb8fu"]
+block_type = "Spikes"
+position = Vector2i(0, 500)
+properties = {
+"source_line": "\"tile\"(\"Spikes\",\"0\",\"500\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_0yy2r"]
+block_type = "Spikes"
+position = Vector2i(50, 500)
+properties = {
+"source_line": "\"tile\"(\"Spikes\",\"50\",\"500\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_bfmwr"]
+block_type = "Spikes"
+position = Vector2i(100, 500)
+properties = {
+"source_line": "\"tile\"(\"Spikes\",\"100\",\"500\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_euodw"]
+block_type = "Spikes"
+position = Vector2i(150, 500)
+properties = {
+"source_line": "\"tile\"(\"Spikes\",\"150\",\"500\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_62ay3"]
+block_type = "Spikes"
+position = Vector2i(200, 500)
+properties = {
+"source_line": "\"tile\"(\"Spikes\",\"200\",\"500\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_4dihp"]
+block_type = "Spikes"
+position = Vector2i(400, 500)
+properties = {
+"source_line": "\"tile\"(\"Spikes\",\"400\",\"500\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_woo7j"]
+block_type = "Spikes"
+position = Vector2i(450, 500)
+properties = {
+"source_line": "\"tile\"(\"Spikes\",\"450\",\"500\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_slgnl"]
+block_type = "Spikes"
+position = Vector2i(500, 500)
+properties = {
+"source_line": "\"tile\"(\"Spikes\",\"500\",\"500\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_3f1bj"]
+block_type = "Spikes"
+position = Vector2i(950, 500)
+properties = {
+"source_line": "\"tile\"(\"Spikes\",\"950\",\"500\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_nqy2v"]
+block_type = "Spikes"
+position = Vector2i(900, 500)
+properties = {
+"source_line": "\"tile\"(\"Spikes\",\"900\",\"500\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_3711t"]
+block_type = "Spikes"
+position = Vector2i(1000, 500)
+properties = {
+"source_line": "\"tile\"(\"Spikes\",\"1000\",\"500\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_wkwjn"]
+block_type = "Spikes"
+position = Vector2i(1000, 450)
+properties = {
+"source_line": "\"tile\"(\"Spikes\",\"1000\",\"450\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_v7d5c"]
+block_type = "Spikes"
+position = Vector2i(1000, 400)
+properties = {
+"source_line": "\"tile\"(\"Spikes\",\"1000\",\"400\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_34pad"]
+block_type = "Spikes"
+position = Vector2i(1000, 350)
+properties = {
+"source_line": "\"tile\"(\"Spikes\",\"1000\",\"350\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_x23jx"]
+block_type = "Spikes"
+position = Vector2i(1000, 300)
+properties = {
+"source_line": "\"tile\"(\"Spikes\",\"1000\",\"300\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_mvfvn"]
+block_type = "Spikes"
+position = Vector2i(1000, 250)
+properties = {
+"source_line": "\"tile\"(\"Spikes\",\"1000\",\"250\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_8u2vd"]
+block_type = "Spikes"
+position = Vector2i(1000, 200)
+properties = {
+"source_line": "\"tile\"(\"Spikes\",\"1000\",\"200\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_naksc"]
+block_type = "Spikes"
+position = Vector2i(1000, 150)
+properties = {
+"source_line": "\"tile\"(\"Spikes\",\"1000\",\"150\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_2gdf8"]
+block_type = "Spikes"
+position = Vector2i(1000, 100)
+properties = {
+"source_line": "\"tile\"(\"Spikes\",\"1000\",\"100\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_a25cm"]
+block_type = "Spikes"
+position = Vector2i(1000, 50)
+properties = {
+"source_line": "\"tile\"(\"Spikes\",\"1000\",\"50\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_b2rid"]
+block_type = "Spikes"
+position = Vector2i(1000, 0)
+properties = {
+"source_line": "\"tile\"(\"Spikes\",\"1000\",\"0\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_pf1xj"]
+block_type = "Spikes"
+position = Vector2i(0, 450)
+properties = {
+"source_line": "\"tile\"(\"Spikes\",\"0\",\"450\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_i6lmv"]
+block_type = "Spikes"
+position = Vector2i(0, 400)
+properties = {
+"source_line": "\"tile\"(\"Spikes\",\"0\",\"400\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_vom6c"]
+block_type = "Spikes"
+position = Vector2i(0, 350)
+properties = {
+"source_line": "\"tile\"(\"Spikes\",\"0\",\"350\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_f5ywo"]
+block_type = "Spikes"
+position = Vector2i(0, 300)
+properties = {
+"source_line": "\"tile\"(\"Spikes\",\"0\",\"300\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_33y2h"]
+block_type = "Spikes"
+position = Vector2i(0, 250)
+properties = {
+"source_line": "\"tile\"(\"Spikes\",\"0\",\"250\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_hcy35"]
+block_type = "Spikes"
+position = Vector2i(0, 200)
+properties = {
+"source_line": "\"tile\"(\"Spikes\",\"0\",\"200\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_2b3ju"]
+block_type = "Spikes"
+position = Vector2i(0, 150)
+properties = {
+"source_line": "\"tile\"(\"Spikes\",\"0\",\"150\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_og2r0"]
+block_type = "Spikes"
+position = Vector2i(0, 100)
+properties = {
+"source_line": "\"tile\"(\"Spikes\",\"0\",\"100\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_7toa8"]
+block_type = "Spikes"
+position = Vector2i(0, 50)
+properties = {
+"source_line": "\"tile\"(\"Spikes\",\"0\",\"50\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_sj8mj"]
+block_type = "Spikes"
+properties = {
+"source_line": "\"tile\"(\"Spikes\",\"0\",\"0\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_ulbcx"]
+block_type = "Block"
+position = Vector2i(250, 550)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"250\",\"550\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_82ces"]
+block_type = "Block"
+position = Vector2i(350, 550)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"350\",\"550\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_41xxg"]
+block_type = "Block"
+position = Vector2i(300, 550)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"300\",\"550\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_5jbdh"]
+block_type = "Block"
+position = Vector2i(400, 450)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"400\",\"450\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_p2ifv"]
+block_type = "Block"
+position = Vector2i(500, 450)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"500\",\"450\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_prkbt"]
+block_type = "Block"
+position = Vector2i(550, 550)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"550\",\"550\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_o8itd"]
+block_type = "Block"
+position = Vector2i(600, 550)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"600\",\"550\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_l5mdd"]
+block_type = "Block"
+position = Vector2i(650, 550)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"650\",\"550\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_7qk1c"]
+block_type = "Block"
+position = Vector2i(700, 500)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"700\",\"500\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_ic6be"]
+block_type = "Block"
+position = Vector2i(750, 500)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"750\",\"500\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_mgyub"]
+block_type = "Block"
+position = Vector2i(800, 500)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"800\",\"500\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_jfntn"]
+block_type = "Block"
+position = Vector2i(850, 500)
+properties = {
+"source_line": "\"tile\"(\"Block\",\"850\",\"500\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_wuah3"]
+block_type = "ShadowBlock"
+position = Vector2i(200, 0)
+properties = {
+"source_line": "\"tile\"(\"ShadowBlock\",\"200\",\"0\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_eaaeb"]
+block_type = "ShadowBlock"
+position = Vector2i(450, 50)
+properties = {
+"source_line": "\"tile\"(\"ShadowBlock\",\"450\",\"50\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_sr0p2"]
+block_type = "ShadowBlock"
+position = Vector2i(750, 0)
+properties = {
+"source_line": "\"tile\"(\"ShadowBlock\",\"750\",\"0\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_sictf"]
+block_type = "ShadowBlock"
+position = Vector2i(950, 50)
+properties = {
+"source_line": "\"tile\"(\"ShadowBlock\",\"950\",\"50\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_gotuy"]
+block_type = "ShadowBlock"
+position = Vector2i(800, 250)
+properties = {
+"source_line": "\"tile\"(\"ShadowBlock\",\"800\",\"250\")"
+}
+
+[sub_resource type="MnmsTileResource" id="MnmsTileResource_ygm4d"]
+block_type = "Exit"
+position = Vector2i(900, 450)
+properties = {
+"source_line": "\"tile\"(\"Exit\",\"900\",\"450\")"
+}
+
+[resource]
+level_name = "End"
+world_size = Vector2i(1050, 600)
+time_limit = 232
+recordings_count = 1
+tiles = [SubResource("MnmsTileResource_rlybi"), SubResource("MnmsTileResource_5xjg7"), SubResource("MnmsTileResource_0cbe1"), SubResource("MnmsTileResource_mvyvo"), SubResource("MnmsTileResource_k1jrw"), SubResource("MnmsTileResource_tiiqg"), SubResource("MnmsTileResource_41cw8"), SubResource("MnmsTileResource_e5i2o"), SubResource("MnmsTileResource_scbwa"), SubResource("MnmsTileResource_mud03"), SubResource("MnmsTileResource_nosl6"), SubResource("MnmsTileResource_66ee3"), SubResource("MnmsTileResource_pkxwl"), SubResource("MnmsTileResource_2xcso"), SubResource("MnmsTileResource_evi20"), SubResource("MnmsTileResource_0nike"), SubResource("MnmsTileResource_0cyun"), SubResource("MnmsTileResource_ahck5"), SubResource("MnmsTileResource_dwa5h"), SubResource("MnmsTileResource_y2nln"), SubResource("MnmsTileResource_o0s5v"), SubResource("MnmsTileResource_7xyg2"), SubResource("MnmsTileResource_6n2c7"), SubResource("MnmsTileResource_wd6vh"), SubResource("MnmsTileResource_mdc8l"), SubResource("MnmsTileResource_rjcjr"), SubResource("MnmsTileResource_837n0"), SubResource("MnmsTileResource_nyf2m"), SubResource("MnmsTileResource_cxipy"), SubResource("MnmsTileResource_tc6dh"), SubResource("MnmsTileResource_6re3q"), SubResource("MnmsTileResource_0f00j"), SubResource("MnmsTileResource_5x1am"), SubResource("MnmsTileResource_ur5vw"), SubResource("MnmsTileResource_at3vo"), SubResource("MnmsTileResource_yx84y"), SubResource("MnmsTileResource_fwmtm"), SubResource("MnmsTileResource_rsjvp"), SubResource("MnmsTileResource_hofoh"), SubResource("MnmsTileResource_rcehk"), SubResource("MnmsTileResource_hjah4"), SubResource("MnmsTileResource_83vpr"), SubResource("MnmsTileResource_xlq3m"), SubResource("MnmsTileResource_tqjcq"), SubResource("MnmsTileResource_slsw8"), SubResource("MnmsTileResource_bmw1c"), SubResource("MnmsTileResource_kb5mo"), SubResource("MnmsTileResource_bdqra"), SubResource("MnmsTileResource_rhtaw"), SubResource("MnmsTileResource_vecjo"), SubResource("MnmsTileResource_3j5fa"), SubResource("MnmsTileResource_4b3i4"), SubResource("MnmsTileResource_wd28p"), SubResource("MnmsTileResource_n5slf"), SubResource("MnmsTileResource_tb8fu"), SubResource("MnmsTileResource_0yy2r"), SubResource("MnmsTileResource_bfmwr"), SubResource("MnmsTileResource_euodw"), SubResource("MnmsTileResource_62ay3"), SubResource("MnmsTileResource_4dihp"), SubResource("MnmsTileResource_woo7j"), SubResource("MnmsTileResource_slgnl"), SubResource("MnmsTileResource_3f1bj"), SubResource("MnmsTileResource_nqy2v"), SubResource("MnmsTileResource_3711t"), SubResource("MnmsTileResource_wkwjn"), SubResource("MnmsTileResource_v7d5c"), SubResource("MnmsTileResource_34pad"), SubResource("MnmsTileResource_x23jx"), SubResource("MnmsTileResource_mvfvn"), SubResource("MnmsTileResource_8u2vd"), SubResource("MnmsTileResource_naksc"), SubResource("MnmsTileResource_2gdf8"), SubResource("MnmsTileResource_a25cm"), SubResource("MnmsTileResource_b2rid"), SubResource("MnmsTileResource_pf1xj"), SubResource("MnmsTileResource_i6lmv"), SubResource("MnmsTileResource_vom6c"), SubResource("MnmsTileResource_f5ywo"), SubResource("MnmsTileResource_33y2h"), SubResource("MnmsTileResource_hcy35"), SubResource("MnmsTileResource_2b3ju"), SubResource("MnmsTileResource_og2r0"), SubResource("MnmsTileResource_7toa8"), SubResource("MnmsTileResource_sj8mj"), SubResource("MnmsTileResource_ulbcx"), SubResource("MnmsTileResource_82ces"), SubResource("MnmsTileResource_41xxg"), SubResource("MnmsTileResource_5jbdh"), SubResource("MnmsTileResource_p2ifv"), SubResource("MnmsTileResource_prkbt"), SubResource("MnmsTileResource_o8itd"), SubResource("MnmsTileResource_l5mdd"), SubResource("MnmsTileResource_7qk1c"), SubResource("MnmsTileResource_ic6be"), SubResource("MnmsTileResource_mgyub"), SubResource("MnmsTileResource_jfntn"), SubResource("MnmsTileResource_wuah3"), SubResource("MnmsTileResource_eaaeb"), SubResource("MnmsTileResource_sr0p2"), SubResource("MnmsTileResource_sictf"), SubResource("MnmsTileResource_gotuy"), SubResource("MnmsTileResource_ygm4d")]
+metadata = {
+"name": "End",
+"recordings": "1",
+"size": "1050,600",
+"source_map_name": "End.map",
+"source_map_path": "res://mnms_source_data/levelpacks/classic/End.map",
+"source_pack_id": "classic",
+"source_pack_path": "res://mnms_source_data/levelpacks/classic",
+"time": "232"
+}

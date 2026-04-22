@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://level16directload"]
+
+[ext_resource type="Script" path="res://level16_loader.gd" id="1"]
+
+[node name="Level16" type="MnmsGameDirector"]
+script = ExtResource("1")

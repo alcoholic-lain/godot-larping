@@ -1,0 +1,204 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-06 04:42+0000\n"
+"PO-Revision-Date: 2023-06-08 14:48+0000\n"
+"Last-Translator: EGuillemot <Elouen.Guillemot@gmail.com>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/me-and-my-shadow/"
+"level-cooperation/fr/>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.18-dev\n"
+
+#. TRANSLATORS: This will be shown when all the levels in the pack are finished.
+#: levels.lst:1
+msgid "Go team!"
+msgstr ""
+
+#. TRANSLATORS: This is the description of the level pack.
+#: levels.lst:2
+msgid "Make sure to take your shadow with you"
+msgstr "N'oubliez pas de prendre votre ombre avec vous"
+
+#. TRANSLATORS: This is the name of the level pack.
+#: levels.lst:3
+msgid "Cooperation"
+msgstr "Coopération"
+
+#. TRANSLATORS: This is the name of a level.
+#: save_your_shadow.map:1
+msgid "Save Your Shadow"
+msgstr "Sauvez votre ombre"
+
+#: save_your_shadow.map:85
+msgid "Help your shadow to the exit"
+msgstr "Aidez votre ombre à sortir"
+
+#. TRANSLATORS: This is the name of a level.
+#: sokoban.map:1
+msgid "Sokoban"
+msgstr "Sokoban"
+
+#: sokoban.map:18
+msgid "Don't drop the boxes on your head"
+msgstr "Ne laissez pas tomber les boîtes sur votre tête"
+
+#. TRANSLATORS: This is the name of a level.
+#: mirror.map:2
+msgid "Mirror"
+msgstr "Miroir"
+
+#: mirror.map:76
+#: mirror.map:79
+msgid "Mirror, mirror on the wall..."
+msgstr "Miroir, miroir au mur..."
+
+#. TRANSLATORS: This is the name of a level.
+#: box_this_up.map:2
+msgid "Box This Up"
+msgstr ""
+
+#. TRANSLATORS: This is the name of a level.
+#: brittle.map:2
+msgid "Brittle"
+msgstr ""
+
+#: brittle.map:73
+msgid "Watch your footing"
+msgstr ""
+
+#. TRANSLATORS: This is the name of a level.
+#: switches.map:2
+msgid "Switches"
+msgstr "Interrupteurs"
+
+#: switches.map:251
+#, fuzzy
+msgid "It's a spiky business upstairs"
+msgstr "C'est une affaire épineuse à l'étage"
+
+#: switches.map:254
+msgid "For the penthouse, push here"
+msgstr ""
+
+#. TRANSLATORS: This is the name of a level.
+#: rats_in_a_maze.map:2
+msgid "Rats in a Maze"
+msgstr "Des rats dans un labyrinthe"
+
+#: rats_in_a_maze.map:115
+msgid "Rats!"
+msgstr "Rats !"
+
+#. TRANSLATORS: This is the name of a level.
+#: self_sacrifice.map:2
+msgid "Self-sacrifice"
+msgstr "Abnégation"
+
+#. TRANSLATORS: This is the name of a level.
+#: isopropanol.map:1
+msgid "Isopropanol"
+msgstr "Alcool isopropylique"
+
+#. TRANSLATORS: This is the name of a level.
+#: skyline.map:2
+msgid "Skyline"
+msgstr ""
+
+#: skyline.map:146
+msgid "Let's take a ride!"
+msgstr "Allons faire un tour !"
+
+#. TRANSLATORS: This is the name of a level.
+#: stacks.map:2
+msgid "Stacks"
+msgstr ""
+
+#. TRANSLATORS: This is the name of a level.
+#: conveyor_belt.map:2
+msgid "Conveyor Belt"
+msgstr "Tapis roulant"
+
+#. TRANSLATORS: This is the name of a level.
+#: shadow_switch.map:2
+msgid "Shadow Switch"
+msgstr ""
+
+#. TRANSLATORS: This is the name of a level.
+#: pushover.map:2
+msgid "Pushover"
+msgstr ""
+
+#. TRANSLATORS: This is the name of a level.
+#: bridge_over_troubled_waters.map:2
+msgid "Bridge Over Troubled Waters"
+msgstr "Pont sur des eaux troubles"
+
+#. TRANSLATORS: This is the name of a level.
+#: trap_dance.map:2
+msgid "Trap Dance"
+msgstr ""
+
+#. TRANSLATORS: This is the name of a level.
+#: obstacle_course.map:2
+msgid "Obstacle Course"
+msgstr "Course d'obstacles"
+
+#. TRANSLATORS: This is the name of a level.
+#: the_great_flood.map:2
+msgid "The Great Flood"
+msgstr "La grande inondation"
+
+#: the_great_flood.map:10177
+msgid "Flee the great flood!"
+msgstr "Fuyez la grande inondation !"
+
+#. TRANSLATORS: This is the name of a level.
+#: swap.map:2
+msgid "Swap"
+msgstr "Échanger"
+
+#. TRANSLATORS: This is the name of a level.
+#: diamonds.map:2
+msgid "Diamonds"
+msgstr "Diamants"
+
+#. TRANSLATORS: This is the name of a level.
+#: easter_egg_hunt.map:2
+msgid "Easter Egg Hunt"
+msgstr "Chasse aux œufs de Pâques"
+
+#. TRANSLATORS: This is the name of a level.
+#: prison_break.map:2
+msgid "Prison Break"
+msgstr ""
+
+#: prison_break.map:262
+msgid "Your shadow has been unjustly incarcerated.\n\nHelp him plan his escape."
+msgstr ""
+"Votre ombre a été injustement incarcérée.\n"
+"\n"
+"Aidez-la à planifier son évasion."
+
+#. TRANSLATORS: This is the name of a level.
+#: over_land_and_sea.map:2
+msgid "Over Land And Sea"
+msgstr "Sur terre et mer"
+
+#. TRANSLATORS: This is the name of a level.
+#: going_home.map:2
+msgid "Going Home"
+msgstr "Rentrer à la maison"
+
+#: going_home.map:49
+msgid "Why not go home together?"
+msgstr "Pourquoi ne pas rentrer ensemble ?"

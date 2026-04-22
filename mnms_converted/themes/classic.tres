@@ -1,0 +1,364 @@
+[gd_resource type="MnmsThemeResource" format=3]
+
+[resource]
+theme_id = "classic"
+name = "Default Theme"
+block_texture_map = {
+"Block": "blocks/block.png",
+"Button": "blocks/block.png",
+"Checkpoint": "blocks/checkpoint.png",
+"ConveyorBelt": "blocks/block.png",
+"Exit": "blocks/exit.png",
+"Fragile": "blocks/fragile.png",
+"MovingBlock": "blocks/block.png",
+"MovingShadowBlock": "blocks/shadowblock.png",
+"MovingShadowSpikes": "blocks/shadowspikes.png",
+"MovingSpikes": "blocks/spikes.png",
+"NotificationBlock": "blocks/notification.png",
+"PlayerStart": "blocks/playerstart.png",
+"ShadowBlock": "blocks/shadowblock.png",
+"ShadowConveyorBelt": "blocks/shadowblock.png",
+"ShadowFragile": "blocks/fragileshadow.png",
+"ShadowSpikes": "blocks/shadowspikes.png",
+"ShadowStart": "blocks/shadowstart.png",
+"Spikes": "blocks/spikes.png",
+"Swap": "blocks/swap.png",
+"Switch": "blocks/switch.png",
+"Teleporter": "blocks/portal.png"
+}
+character_texture_map = {
+"Player": "res://mnms_source_data/themes/classic/player/playerleft.png",
+"Shadow": "res://mnms_source_data/themes/classic/shadow/shadowleft.png"
+}
+character_state_map = {
+"Player": {
+"dead": {
+"frames": [{
+"duration": 0.1,
+"h": 40.0,
+"w": 23.0,
+"x": 23.0,
+"y": 0.0
+}],
+"loop": false,
+"texture_path": "res://mnms_source_data/themes/classic/player/playerright.png"
+},
+"dieleft": {
+"frames": [{
+"duration": 0.1,
+"h": 40.0,
+"w": 23.0,
+"x": 23.0,
+"y": 0.0
+}],
+"loop": false,
+"texture_path": "res://mnms_source_data/themes/classic/player/playerright.png"
+},
+"dieright": {
+"frames": [{
+"duration": 0.1,
+"h": 40.0,
+"w": 23.0,
+"x": 23.0,
+"y": 0.0
+}],
+"loop": false,
+"texture_path": "res://mnms_source_data/themes/classic/player/playerright.png"
+},
+"fallleft": {
+"frames": [{
+"duration": 0.1,
+"h": 40.0,
+"w": 23.0,
+"x": 0.0,
+"y": 0.0
+}],
+"loop": false,
+"texture_path": "res://mnms_source_data/themes/classic/player/jumpleft.png"
+},
+"fallright": {
+"frames": [{
+"duration": 0.1,
+"h": 40.0,
+"w": 23.0,
+"x": 0.0,
+"y": 0.0
+}],
+"loop": false,
+"texture_path": "res://mnms_source_data/themes/classic/player/jumpright.png"
+},
+"holding": {
+"frames": [{
+"duration": 0.1,
+"h": 40.0,
+"w": 23.0,
+"x": 0.0,
+"y": 0.0
+}],
+"loop": false,
+"texture_path": "res://mnms_source_data/themes/classic/player/playerholdingright.png"
+},
+"jumpleft": {
+"frames": [{
+"duration": 0.1,
+"h": 40.0,
+"w": 23.0,
+"x": 0.0,
+"y": 0.0
+}],
+"loop": false,
+"texture_path": "res://mnms_source_data/themes/classic/player/jumpleft.png"
+},
+"jumpright": {
+"frames": [{
+"duration": 0.1,
+"h": 40.0,
+"w": 23.0,
+"x": 0.0,
+"y": 0.0
+}],
+"loop": false,
+"texture_path": "res://mnms_source_data/themes/classic/player/jumpright.png"
+},
+"line": {
+"frames": [{
+"duration": 0.1,
+"h": 5.0,
+"w": 5.0,
+"x": 0.0,
+"y": 0.0
+}],
+"loop": false,
+"texture_path": "res://mnms_source_data/themes/classic/player/line.png"
+},
+"standleft": {
+"frames": [{
+"duration": 0.1,
+"h": 40.0,
+"w": 23.0,
+"x": 23.0,
+"y": 0.0
+}],
+"loop": false,
+"texture_path": "res://mnms_source_data/themes/classic/player/playerleft.png"
+},
+"standright": {
+"frames": [{
+"duration": 0.1,
+"h": 40.0,
+"w": 23.0,
+"x": 23.0,
+"y": 0.0
+}],
+"loop": false,
+"texture_path": "res://mnms_source_data/themes/classic/player/playerright.png"
+},
+"walkleft": {
+"frames": [{
+"duration": 0.05,
+"h": 40.0,
+"w": 23.0,
+"x": 0.0,
+"y": 0.0
+}, {
+"duration": 0.05,
+"h": 40.0,
+"w": 23.0,
+"x": 23.0,
+"y": 0.0
+}, {
+"duration": 0.05,
+"h": 40.0,
+"w": 23.0,
+"x": 46.0,
+"y": 0.0
+}],
+"loop": true,
+"texture_path": "res://mnms_source_data/themes/classic/player/playerleft.png"
+},
+"walkright": {
+"frames": [{
+"duration": 0.05,
+"h": 40.0,
+"w": 23.0,
+"x": 0.0,
+"y": 0.0
+}, {
+"duration": 0.05,
+"h": 40.0,
+"w": 23.0,
+"x": 23.0,
+"y": 0.0
+}, {
+"duration": 0.05,
+"h": 40.0,
+"w": 23.0,
+"x": 46.0,
+"y": 0.0
+}],
+"loop": true,
+"texture_path": "res://mnms_source_data/themes/classic/player/playerright.png"
+}
+},
+"Shadow": {
+"dead": {
+"frames": [{
+"duration": 0.1,
+"h": 40.0,
+"w": 23.0,
+"x": 23.0,
+"y": 0.0
+}],
+"loop": false,
+"texture_path": "res://mnms_source_data/themes/classic/player/playerright.png"
+},
+"dieleft": {
+"frames": [{
+"duration": 0.1,
+"h": 40.0,
+"w": 23.0,
+"x": 23.0,
+"y": 0.0
+}],
+"loop": false,
+"texture_path": "res://mnms_source_data/themes/classic/player/playerright.png"
+},
+"dieright": {
+"frames": [{
+"duration": 0.1,
+"h": 40.0,
+"w": 23.0,
+"x": 23.0,
+"y": 0.0
+}],
+"loop": false,
+"texture_path": "res://mnms_source_data/themes/classic/player/playerright.png"
+},
+"fallleft": {
+"frames": [{
+"duration": 0.1,
+"h": 40.0,
+"w": 23.0,
+"x": 0.0,
+"y": 0.0
+}],
+"loop": false,
+"texture_path": "res://mnms_source_data/themes/classic/shadow/jumpleftshadow.png"
+},
+"fallright": {
+"frames": [{
+"duration": 0.1,
+"h": 40.0,
+"w": 23.0,
+"x": 0.0,
+"y": 0.0
+}],
+"loop": false,
+"texture_path": "res://mnms_source_data/themes/classic/shadow/jumprightshadow.png"
+},
+"holding": {
+"frames": [{
+"duration": 0.1,
+"h": 40.0,
+"w": 23.0,
+"x": 0.0,
+"y": 0.0
+}],
+"loop": false,
+"texture_path": "res://mnms_source_data/themes/classic/shadow/shadowholdingright.png"
+},
+"jumpleft": {
+"frames": [{
+"duration": 0.1,
+"h": 40.0,
+"w": 23.0,
+"x": 0.0,
+"y": 0.0
+}],
+"loop": false,
+"texture_path": "res://mnms_source_data/themes/classic/shadow/jumpleftshadow.png"
+},
+"jumpright": {
+"frames": [{
+"duration": 0.1,
+"h": 40.0,
+"w": 23.0,
+"x": 0.0,
+"y": 0.0
+}],
+"loop": false,
+"texture_path": "res://mnms_source_data/themes/classic/shadow/jumprightshadow.png"
+},
+"standleft": {
+"frames": [{
+"duration": 0.1,
+"h": 40.0,
+"w": 23.0,
+"x": 23.0,
+"y": 0.0
+}],
+"loop": false,
+"texture_path": "res://mnms_source_data/themes/classic/shadow/shadowleft.png"
+},
+"standright": {
+"frames": [{
+"duration": 0.1,
+"h": 40.0,
+"w": 23.0,
+"x": 23.0,
+"y": 0.0
+}],
+"loop": false,
+"texture_path": "res://mnms_source_data/themes/classic/shadow/shadowright.png"
+},
+"walkleft": {
+"frames": [{
+"duration": 0.05,
+"h": 40.0,
+"w": 23.0,
+"x": 0.0,
+"y": 0.0
+}, {
+"duration": 0.05,
+"h": 40.0,
+"w": 23.0,
+"x": 23.0,
+"y": 0.0
+}, {
+"duration": 0.05,
+"h": 40.0,
+"w": 23.0,
+"x": 46.0,
+"y": 0.0
+}],
+"loop": true,
+"texture_path": "res://mnms_source_data/themes/classic/shadow/shadowleft.png"
+},
+"walkright": {
+"frames": [{
+"duration": 0.05,
+"h": 40.0,
+"w": 23.0,
+"x": 0.0,
+"y": 0.0
+}, {
+"duration": 0.05,
+"h": 40.0,
+"w": 23.0,
+"x": 23.0,
+"y": 0.0
+}, {
+"duration": 0.05,
+"h": 40.0,
+"w": 23.0,
+"x": 46.0,
+"y": 0.0
+}],
+"loop": true,
+"texture_path": "res://mnms_source_data/themes/classic/shadow/shadowright.png"
+}
+}
+}
+metadata = {
+"source_theme_path": "res://mnms_source_data/themes/classic/theme.mnmstheme"
+}
